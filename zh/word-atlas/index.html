@@ -150,7 +150,7 @@ footer{font-size:12px;color:var(--muted);padding-block:0 40px}
   <p class="note">释义、插画和录音为 AI 生成，未经逐条人工审校，可能存在小错误。</p>
   <div class="ctas"><a class="btn primary" href="https://0xlei.tech/words/" target="_blank" rel="noopener">去下载 / 开始使用 →</a><a class="btn" href="https://github.com/designfuchen/word-atlas" target="_blank" rel="noopener">GitHub 仓库</a></div><p class="helplink"><a href="/zh/guide/">不会安装、担心安全？看新手指南</a></p>
   <section class="faq"><h4>常见问题</h4><div class="qa"><h3>词光是免费的吗？</h3><p>是的，词光完全免费使用，无需购买会员，也不需要配置任何 API 密钥。</p></div><div class="qa"><h3>词光 (Word Atlas) 下载安全吗？</h3><p>它是开源项目（NOASSERTION 授权），GitHub 4,818 星，最近更新 2026-11-13。只从本页的官方链接下载，安装前先扫一遍，具体做法见新手指南里的“下载安全”一节。</p></div><div class="qa"><h3>使用词光需要注册账号吗？</h3><p>不需要注册登录，应用采用 FSRS 间隔复习算法，你的所有学习进度都会直接保存在本地设备上。</p></div></section>
-  <aside class="own"><p class="ownh">Ad</p><p class="ownq">不懂英语，怎么看医生？</p><p class="ownn">MedEar Spanish</p><p>看医生时的英语⇄西班牙语医疗翻译，帮说西语的家人听懂医生。</p><p class="ownp">30 天免费试用，之后一次性 $9.99</p><div class="ctas"><a class="btn" href="https://apps.apple.com/us/app/medear-spanish/id6776947808" target="_blank" rel="noopener">App Store</a><a class="btn" href="https://play.google.com/store/apps/details?id=com.aibcinternational.medear.spanish" target="_blank" rel="noopener">Google Play</a></div></aside>
+  <aside class="own" lang="es"><p class="ownh">Ad</p><p class="ownq">¿No habla inglés? Entienda a su médico.</p><p class="ownn">MedEar Spanish</p><p>Traductor médico inglés⇄español para que usted y su familia entiendan al doctor.</p><p class="ownp">30 días gratis, luego un solo pago de $9.99</p><div class="ctas"><a class="btn" href="https://apps.apple.com/us/app/medear-spanish/id6776947808" target="_blank" rel="noopener">App Store</a><a class="btn" href="https://play.google.com/store/apps/details?id=com.aibcinternational.medear.spanish" target="_blank" rel="noopener">Google Play</a></div></aside>
   
   <p class="src">资料整理自项目 README。GitHub 星数 4,818（2026-11-13）· 授权 NOASSERTION · 最近更新 2026-11-13</p></div></div>
 
@@ -256,9 +256,9 @@ const gref=()=>STATIC?`/${S.lang}/guide/`:'#guide';
 const href=i=>STATIC?`/${S.lang}/${i.slug}/`:`#item-${i.slug}`;
 const brand=()=>`<a class="logo" href="${STATIC?'/':'#'}">${LOGO}<span class="wm"><b>Easy</b>OpenHub</span><span class="tagzh">拿来就用</span></a>`;
 const OWN={ios:'https://apps.apple.com/us/app/medear-spanish/id6776947808',play:'https://play.google.com/store/apps/details?id=com.aibcinternational.medear.spanish',
-  zh:{h:'Ad',q:'不懂英语，怎么看医生？',n:'MedEar Spanish',d:'看医生时的英语⇄西班牙语医疗翻译，帮说西语的家人听懂医生。',p:'30 天免费试用，之后一次性 $9.99',f:'Ad: '},
-  en:{h:'Ad',q:'Don’t speak English? Still understand your doctor.',n:'MedEar Spanish',d:'A medical English⇄Spanish translator that helps Spanish-speaking family understand the doctor.',p:'30-day free trial, then $9.99 one-time',f:'Ad: '}};
-const ownCard=()=>{const o=OWN[S.lang];return `<aside class="own"><p class="ownh">${o.h}</p><p class="ownq">${o.q}</p><p class="ownn">${o.n}</p><p>${o.d}</p><p class="ownp">${o.p}</p><div class="ctas"><a class="btn" href="${OWN.ios}" target="_blank" rel="noopener">App Store</a><a class="btn" href="${OWN.play}" target="_blank" rel="noopener">Google Play</a></div></aside>`};
+  zh:{h:'Ad',q:'¿No habla inglés? Entienda a su médico.',n:'MedEar Spanish',d:'Traductor médico inglés⇄español para que usted y su familia entiendan al doctor.',p:'30 días gratis, luego un solo pago de $9.99',f:'Ad: '},
+  en:{h:'Ad',q:'¿No habla inglés? Entienda a su médico.',n:'MedEar Spanish',d:'Traductor médico inglés⇄español para que usted y su familia entiendan al doctor.',p:'30 días gratis, luego un solo pago de $9.99',f:'Ad: '}};
+const ownCard=()=>{const o=OWN[S.lang];return `<aside class="own" lang="es"><p class="ownh">${o.h}</p><p class="ownq">${o.q}</p><p class="ownn">${o.n}</p><p>${o.d}</p><p class="ownp">${o.p}</p><div class="ctas"><a class="btn" href="${OWN.ios}" target="_blank" rel="noopener">App Store</a><a class="btn" href="${OWN.play}" target="_blank" rel="noopener">Google Play</a></div></aside>`};
 const PLATS=['Windows','macOS','Android','iOS','Web'];
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 const PRESET=window.PRESET||null,STATIC=!!window.STATIC;

@@ -243,9 +243,9 @@ const gref=()=>STATIC?`/${S.lang}/guide/`:'#guide';
 const href=i=>STATIC?`/${S.lang}/${i.slug}/`:`#item-${i.slug}`;
 const brand=()=>`<a class="logo" href="${STATIC?'/':'#'}">${LOGO}<span class="wm"><b>Easy</b>OpenHub</span><span class="tagzh">拿来就用</span></a>`;
 const OWN={ios:'https://apps.apple.com/us/app/medear-spanish/id6776947808',play:'https://play.google.com/store/apps/details?id=com.aibcinternational.medear.spanish',
-  zh:{h:'Ad',q:'不懂英语，怎么看医生？',n:'MedEar Spanish',d:'看医生时的英语⇄西班牙语医疗翻译，帮说西语的家人听懂医生。',p:'30 天免费试用，之后一次性 $9.99',f:'Ad: '},
-  en:{h:'Ad',q:'Don’t speak English? Still understand your doctor.',n:'MedEar Spanish',d:'A medical English⇄Spanish translator that helps Spanish-speaking family understand the doctor.',p:'30-day free trial, then $9.99 one-time',f:'Ad: '}};
-const ownCard=()=>{const o=OWN[S.lang];return `<aside class="own"><p class="ownh">${o.h}</p><p class="ownq">${o.q}</p><p class="ownn">${o.n}</p><p>${o.d}</p><p class="ownp">${o.p}</p><div class="ctas"><a class="btn" href="${OWN.ios}" target="_blank" rel="noopener">App Store</a><a class="btn" href="${OWN.play}" target="_blank" rel="noopener">Google Play</a></div></aside>`};
+  zh:{h:'Ad',q:'¿No habla inglés? Entienda a su médico.',n:'MedEar Spanish',d:'Traductor médico inglés⇄español para que usted y su familia entiendan al doctor.',p:'30 días gratis, luego un solo pago de $9.99',f:'Ad: '},
+  en:{h:'Ad',q:'¿No habla inglés? Entienda a su médico.',n:'MedEar Spanish',d:'Traductor médico inglés⇄español para que usted y su familia entiendan al doctor.',p:'30 días gratis, luego un solo pago de $9.99',f:'Ad: '}};
+const ownCard=()=>{const o=OWN[S.lang];return `<aside class="own" lang="es"><p class="ownh">${o.h}</p><p class="ownq">${o.q}</p><p class="ownn">${o.n}</p><p>${o.d}</p><p class="ownp">${o.p}</p><div class="ctas"><a class="btn" href="${OWN.ios}" target="_blank" rel="noopener">App Store</a><a class="btn" href="${OWN.play}" target="_blank" rel="noopener">Google Play</a></div></aside>`};
 const PLATS=['Windows','macOS','Android','iOS','Web'];
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 const PRESET=window.PRESET||null,STATIC=!!window.STATIC;
