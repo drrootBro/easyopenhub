@@ -103,7 +103,7 @@ footer{font-size:12px;color:var(--muted);padding-block:0 40px}
 .card{min-width:0}.card p,.card h3{overflow-wrap:anywhere}
 .alt{margin:-6px 0 14px;font-size:14px;color:var(--muted)}.alt b{color:var(--ink);font-weight:600}
 .faq{margin:8px 0 26px}.faq h4{margin:0 0 10px}.qa{border-top:1px solid var(--line);padding:12px 0}.qa h3{font:600 15px/1.45 var(--f-body);margin:0 0 4px}.qa p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.65}
-.own{border:1px dashed var(--line);border-radius:12px;padding:14px 16px;margin:0 0 24px;background:var(--surface)}.own p{margin:0 0 6px;font-size:14.5px}.ownh{font-size:12px!important;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}.ownn{font:700 17px var(--f-display)}.ownp{color:var(--muted)}.own .ctas{margin:10px 0 0}
+.own{border:1px dashed var(--line);border-radius:12px;padding:14px 16px;margin:0 0 24px;background:var(--surface)}.own p{margin:0 0 6px;font-size:14.5px}.ownh{font-size:12px!important;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}.ownq{font:800 19px/1.3 var(--f-display);margin-bottom:4px!important}.ownn{font:600 14px var(--f-body);color:var(--accent)}.ownp{color:var(--muted)}.own .ctas{margin:10px 0 0}
 .ownfoot{font-size:12px;color:var(--muted);margin:10px 0 0}.ownfoot a{color:inherit}
 /* hero */
 .hero{position:relative;overflow:hidden;padding-block:14px 30px;background:
@@ -150,7 +150,7 @@ footer{font-size:12px;color:var(--muted);padding-block:0 40px}
   <p class="note">Requires your own AI model API key (or local setup like Ollama).</p>
   <div class="ctas"><a class="btn primary" href="https://github.com/BigDawnGhost/wenyi/releases" target="_blank" rel="noopener">Get it →</a><a class="btn" href="https://github.com/BigDawnGhost/wenyi" target="_blank" rel="noopener">GitHub repo</a></div><p class="helplink"><a href="/en/guide/">Not sure how to install, or if it’s safe? Read the beginner guide</a></p>
   <section class="faq"><h4>FAQ</h4><div class="qa"><h3>Is Wenyi free?</h3><p>Yes, Wenyi is free and open-source under the GPL-3.0 license, but you need to supply your own AI API key or connect a local model like Ollama.</p></div><div class="qa"><h3>Is Wenyi safe to download?</h3><p>It is open source (GPL-3.0 license) with 2,919 GitHub stars, last updated 2026-11-13. Download only from the official link on this page, and scan the file before installing: see the safety checklist in our beginner guide.</p></div><div class="qa"><h3>What document formats does Wenyi support?</h3><p>Wenyi supports popular long-form formats including EPUB, PDF, and DOCX, allowing you to edit paragraphs and export bilingual editions.</p></div></section>
-  <aside class="own"><p class="ownh">Ad</p><p class="ownn">MedEar Spanish</p><p>A medical English⇄Spanish translator that helps Spanish-speaking family understand the doctor.</p><p class="ownp">30-day free trial, then $9.99 one-time</p><div class="ctas"><a class="btn" href="https://apps.apple.com/us/app/medear-spanish/id6776947808" target="_blank" rel="noopener">App Store</a><a class="btn" href="https://play.google.com/store/apps/details?id=com.aibcinternational.medear.spanish" target="_blank" rel="noopener">Google Play</a></div></aside>
+  <aside class="own"><p class="ownh">Ad</p><p class="ownq">Don’t speak English? Still understand your doctor.</p><p class="ownn">MedEar Spanish</p><p>A medical English⇄Spanish translator that helps Spanish-speaking family understand the doctor.</p><p class="ownp">30-day free trial, then $9.99 one-time</p><div class="ctas"><a class="btn" href="https://apps.apple.com/us/app/medear-spanish/id6776947808" target="_blank" rel="noopener">App Store</a><a class="btn" href="https://play.google.com/store/apps/details?id=com.aibcinternational.medear.spanish" target="_blank" rel="noopener">Google Play</a></div></aside>
   
   <p class="src">Compiled from the project README. 2,919 GitHub stars (2026-11-13) · License GPL-3.0 · Last update 2026-11-13</p></div></div>
 
@@ -256,9 +256,9 @@ const gref=()=>STATIC?`/${S.lang}/guide/`:'#guide';
 const href=i=>STATIC?`/${S.lang}/${i.slug}/`:`#item-${i.slug}`;
 const brand=()=>`<a class="logo" href="${STATIC?'/':'#'}">${LOGO}<span class="wm"><b>Easy</b>OpenHub</span><span class="tagzh">拿来就用</span></a>`;
 const OWN={ios:'https://apps.apple.com/us/app/medear-spanish/id6776947808',play:'https://play.google.com/store/apps/details?id=com.aibcinternational.medear.spanish',
-  zh:{h:'Ad',n:'MedEar Spanish',d:'看医生时的英语⇄西班牙语医疗翻译，帮说西语的家人听懂医生。',p:'30 天免费试用，之后一次性 $9.99',f:'Ad: '},
-  en:{h:'Ad',n:'MedEar Spanish',d:'A medical English⇄Spanish translator that helps Spanish-speaking family understand the doctor.',p:'30-day free trial, then $9.99 one-time',f:'Ad: '}};
-const ownCard=()=>{const o=OWN[S.lang];return `<aside class="own"><p class="ownh">${o.h}</p><p class="ownn">${o.n}</p><p>${o.d}</p><p class="ownp">${o.p}</p><div class="ctas"><a class="btn" href="${OWN.ios}" target="_blank" rel="noopener">App Store</a><a class="btn" href="${OWN.play}" target="_blank" rel="noopener">Google Play</a></div></aside>`};
+  zh:{h:'Ad',q:'不懂英语，怎么看医生？',n:'MedEar Spanish',d:'看医生时的英语⇄西班牙语医疗翻译，帮说西语的家人听懂医生。',p:'30 天免费试用，之后一次性 $9.99',f:'Ad: '},
+  en:{h:'Ad',q:'Don’t speak English? Still understand your doctor.',n:'MedEar Spanish',d:'A medical English⇄Spanish translator that helps Spanish-speaking family understand the doctor.',p:'30-day free trial, then $9.99 one-time',f:'Ad: '}};
+const ownCard=()=>{const o=OWN[S.lang];return `<aside class="own"><p class="ownh">${o.h}</p><p class="ownq">${o.q}</p><p class="ownn">${o.n}</p><p>${o.d}</p><p class="ownp">${o.p}</p><div class="ctas"><a class="btn" href="${OWN.ios}" target="_blank" rel="noopener">App Store</a><a class="btn" href="${OWN.play}" target="_blank" rel="noopener">Google Play</a></div></aside>`};
 const PLATS=['Windows','macOS','Android','iOS','Web'];
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 const PRESET=window.PRESET||null,STATIC=!!window.STATIC;
