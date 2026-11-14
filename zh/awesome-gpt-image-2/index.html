@@ -103,6 +103,8 @@ footer{font-size:12px;color:var(--muted);padding-block:0 40px}
 .card{min-width:0}.card p,.card h3{overflow-wrap:anywhere}
 .alt{margin:-6px 0 14px;font-size:14px;color:var(--muted)}.alt b{color:var(--ink);font-weight:600}
 .faq{margin:8px 0 26px}.faq h4{margin:0 0 10px}.qa{border-top:1px solid var(--line);padding:12px 0}.qa h3{font:600 15px/1.45 var(--f-body);margin:0 0 4px}.qa p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.65}
+.own{border:1px dashed var(--line);border-radius:12px;padding:14px 16px;margin:0 0 24px;background:var(--surface)}.own p{margin:0 0 6px;font-size:14.5px}.ownh{font-size:12px!important;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}.ownn{font:700 17px var(--f-display)}.ownp{color:var(--muted)}.own .ctas{margin:10px 0 0}
+.ownfoot{font-size:12px;color:var(--muted);margin:10px 0 0}.ownfoot a{color:inherit}
 /* hero */
 .hero{position:relative;overflow:hidden;padding-block:14px 30px;background:
  radial-gradient(60% 80% at 100% 0%,var(--accent-soft),transparent 70%),
@@ -148,6 +150,7 @@ footer{font-size:12px;color:var(--muted);padding-block:0 40px}
   <p class="note">在网页上直接测试在线生图需要配置 API Key 或消耗积分。</p>
   <div class="ctas"><a class="btn primary" href="https://gpt-image2.canghe.ai" target="_blank" rel="noopener">去下载 / 开始使用 →</a><a class="btn" href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank" rel="noopener">GitHub 仓库</a></div><p class="helplink"><a href="/zh/guide/">不会安装、担心安全？看新手指南</a></p>
   <section class="faq"><h4>常见问题</h4><div class="qa"><h3>Awesome GPT Image 2 是免费的吗？</h3><p>是的，该项目基于 MIT 协议开源，在线浏览和复制所有提示词完全免费。若在网页端直接测试生图，则需自备 API Key 或消耗相应积分。</p></div><div class="qa"><h3>Awesome GPT Image 2 下载安全吗？</h3><p>它是开源项目（MIT 授权），GitHub 35,788 星，最近更新 2026-11-10。只从本页的官方链接下载，安装前先扫一遍，具体做法见新手指南里的“下载安全”一节。</p></div><div class="qa"><h3>Awesome GPT Image 2 需要安装才能使用吗？</h3><p>不需要安装，直接在任意主流浏览器中打开该网站，即可按类别筛选并一键复制所需的图像生成提示词。</p></div></section>
+  
   
   <p class="src">资料整理自项目 README。GitHub 星数 35,788（2026-11-13）· 授权 MIT · 最近更新 2026-11-10</p></div></div>
 
@@ -252,6 +255,10 @@ const FEAT=['comfyui','excalidraw','appflowy','localsend','stirling-pdf','open-w
 const gref=()=>STATIC?`/${S.lang}/guide/`:'#guide';
 const href=i=>STATIC?`/${S.lang}/${i.slug}/`:`#item-${i.slug}`;
 const brand=()=>`<a class="logo" href="${STATIC?'/':'#'}">${LOGO}<span class="wm"><b>Easy</b>OpenHub</span><span class="tagzh">拿来就用</span></a>`;
+const OWN={ios:'https://apps.apple.com/us/app/medear-spanish/id6776947808',play:'https://play.google.com/store/apps/details?id=com.aibcinternational.medear.spanish',
+  zh:{h:'我们自己做的 App（非开源）',n:'MedEar Spanish',d:'看医生时的英语⇄西班牙语医疗翻译，帮说西语的家人听懂医生。',p:'30 天免费试用，之后一次性 $9.99',f:'我们自己做的 App：'},
+  en:{h:'An app we make (not open source)',n:'MedEar Spanish',d:'A medical English⇄Spanish translator that helps Spanish-speaking family understand the doctor.',p:'30-day free trial, then $9.99 one-time',f:'An app we make: '}};
+const ownCard=()=>{const o=OWN[S.lang];return `<aside class="own"><p class="ownh">${o.h}</p><p class="ownn">${o.n}</p><p>${o.d}</p><p class="ownp">${o.p}</p><div class="ctas"><a class="btn" href="${OWN.ios}" target="_blank" rel="noopener">App Store</a><a class="btn" href="${OWN.play}" target="_blank" rel="noopener">Google Play</a></div></aside>`};
 const PLATS=['Windows','macOS','Android','iOS','Web'];
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 const PRESET=window.PRESET||null,STATIC=!!window.STATIC;
@@ -291,7 +298,7 @@ function renderList(){
   ${PLATS.map(p=>`<button class="chip" data-plat="${p}" aria-pressed="${S.plat.has(p)}">${esc(t().plat[p]||p)}</button>`).join('')}<span class="sep"></span>
   ${FILTER_TAGS.map(g=>`<button class="chip" data-tag="${g}" aria-pressed="${S.tags.has(g)}">${esc(t().tags[g])}</button>`).join('')}</div></div></div>
   <main class="wrap"><p class="resultline">${t().results(list.length)}</p>${list.length?`<div class="grid">${list.map(card).join('')}</div>`:`<p class="empty">${t().none}</p>`}</main>
-  <footer class="wrap"><div class="foot">${brand()}<span>${t().tagline} · easyopenhub.com</span></div><p>${t().foot}</p></footer>`;
+  <footer class="wrap"><div class="foot">${brand()}<span>${t().tagline} · easyopenhub.com</span></div><p class="ownfoot">${OWN[S.lang].f}<a href="${S.lang==='zh'?OWN.ios:OWN.ios}" target="_blank" rel="noopener">MedEar Spanish</a>${S.lang==='zh'?'（非开源）':' (not open source)'}</p><p>${t().foot}</p></footer>`;
   bind();
 }
 function langSw(){return `<div class="lang"><button data-lang="en" aria-pressed="${S.lang==='en'}">EN</button><button data-lang="zh" aria-pressed="${S.lang==='zh'}">中文</button></div>`}
@@ -307,6 +314,7 @@ function renderItem(i){const L=i[S.lang];
   ${L.note?`<p class="note">${esc(L.note)}</p>`:''}
   <div class="ctas"><a class="btn primary" href="${esc(i.get_url)}" target="_blank" rel="noopener">${t().go}</a><a class="btn" href="https://github.com/${esc(i.repo)}" target="_blank" rel="noopener">${t().gh}</a></div><p class="helplink"><a href="${gref()}">${t().help}</a></p>
   ${(L.faq||[]).length?`<section class="faq"><h4>${t().faqh}</h4>${L.faq.map(f=>`<div class="qa"><h3>${esc(f.q)}</h3><p>${esc(f.a)}</p></div>`).join('')}</section>`:''}
+  ${i.tags.includes('language')?ownCard():''}
   ${i.video?`<div class="vids"><h4>${t().watch}</h4><div class="ctas"><a class="btn" href="${i.video[S.lang]}" target="_blank" rel="noopener">▶ YouTube</a></div></div>`:(i.soon?`<p class="note" style="border-color:var(--accent)">${t().soon}</p>`:'')}
   <p class="src">${esc(t().src(i.stars.toLocaleString(),i.license,i.updated))}</p></div>`;
   bind();window.scrollTo(0,0);
