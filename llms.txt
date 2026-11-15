@@ -13,11 +13,14 @@
 - [AnythingLLM](https://easyopenhub.com/en/anything-llm/): Chat with your private documents using local or cloud AI.
 - [Voicebox](https://easyopenhub.com/en/voicebox/): Local AI voice studio to clone voices and dictate text Free alternative to ElevenLabs, Descript.
 - [Upscayl](https://easyopenhub.com/en/upscayl/): Enlarge and enhance low-resolution images using local AI. Free alternative to Topaz Gigapixel AI.
+- [TextGen](https://easyopenhub.com/en/oobabooga-textgen/): Run private AI models on your desktop without telemetry Free alternative to ChatGPT.
 - [Jan](https://easyopenhub.com/en/jan/): Run private AI models completely offline on your computer Free alternative to ChatGPT, Claude.
+- [Handy](https://easyopenhub.com/en/handy/): Free, offline speech-to-text dictation into any app Free alternative to Dragon NaturallySpeaking, Otter.ai.
 - [Khoj](https://easyopenhub.com/en/khoj/): Your personal AI second brain for search and chats. Free alternative to Notion AI, Rewind AI.
 - [Next AI Draw.io](https://easyopenhub.com/en/next-ai-draw-io/): Create and edit draw.io diagrams by chatting with AI Free alternative to Lucidchart, Miro.
 - [Meetily](https://easyopenhub.com/en/meetily/): Private, on-device AI meeting recorder and note-taker. Free alternative to Otter.ai, Fireflies.ai.
 - [Toonflow](https://easyopenhub.com/en/toonflow/): Create AI short dramas on an infinite canvas
+- [pyVideoTrans](https://easyopenhub.com/en/pyvideotrans/): Translate videos into other languages with AI dubbing and subtitles. Free alternative to HeyGen, ElevenLabs, Rask AI.
 - [SurfSense](https://easyopenhub.com/en/surfsense/): Air-gapped, open-source AI agent that analyzes and edits documents. Free alternative to NotebookLM.
 - [BrowserOS neo](https://easyopenhub.com/en/browseros/): A local secondary browser designed for your AI agents.
 - [Diffusion Bee](https://easyopenhub.com/en/diffusionbee-stable-diffusion-ui/): Run Stable Diffusion image generation locally on your Mac Free alternative to Midjourney.
@@ -26,6 +29,8 @@
 - [Magic Resume](https://easyopenhub.com/en/magic-resume/): Modern online resume builder with real-time preview and export Free alternative to Canva.
 - [RTranslator](https://easyopenhub.com/en/rtranslator/): Free offline real-time speech translation app for Android phones. Free alternative to Google Translate.
 - [Noi](https://easyopenhub.com/en/noi/): A focused desktop workspace for AI chats and browsing.
+- [Stability Matrix](https://easyopenhub.com/en/stability-matrix/): One-click manager to install and run Stable Diffusion apps
+- [AiShort (ChatGPT Shortcut)](https://easyopenhub.com/en/chatgpt-shortcut/): Search and copy 5,000+ ready-to-use AI prompts.
 - [ChatLab](https://easyopenhub.com/en/chatlab/): Analyze and explore your exported chat histories locally with AI.
 - [LobsterAI](https://easyopenhub.com/en/lobsterai/): Desktop AI agent that completes real office tasks and files
 - [Echo Loop](https://easyopenhub.com/en/echo-loop/): Master English listening and speaking with structured daily practice.
@@ -36,12 +41,14 @@
 - [Humanizer](https://easyopenhub.com/en/blader-humanizer/): Rewrites AI text to sound naturally human. Free alternative to Undetectable AI.
 - [GPT-SoVITS](https://easyopenhub.com/en/gpt-sovits/): Clone any voice with just one minute of audio Free alternative to ElevenLabs.
 - [Cherry Studio](https://easyopenhub.com/en/cherry-studio/): Desktop app to chat with multiple AI models and agents
+- [Prompt Optimizer](https://easyopenhub.com/en/prompt-optimizer/): Refine, test, and compare AI prompts for better results
 - [Craft Anything](https://easyopenhub.com/en/craft-anything/): Study existing software and let AI recreate it.
 - [Invoke](https://easyopenhub.com/en/invoke-ai/): Professional AI image creation suite with an interactive canvas. Free alternative to Midjourney, Adobe Firefly.
 - [LLM Wiki](https://easyopenhub.com/en/llm-wiki/): Turns documents into an interlinked, self-updating personal wiki.
 - [ebook2audiobook](https://easyopenhub.com/en/ebook2audiobook/): Turn e-books into spoken audiobooks using local AI voices. Free alternative to Audible, Speechify.
 - [Banana Slides](https://easyopenhub.com/en/banana-slides/): Turn ideas into presentation slides using generative AI models. Free alternative to Gamma, Tome.
 - [Kami](https://easyopenhub.com/en/kami/): Beautiful document and slide layout rules for AI agents
+- [Generative AI for Krita](https://easyopenhub.com/en/krita-ai-diffusion/): Add local generative AI tools directly inside Krita Free alternative to Photoshop Generative Fill.
 - [AutoClip](https://easyopenhub.com/en/autoclip/): Turn long videos into short clips with subtitles automatically Free alternative to Opus Clip, Munch.
 - [Modly](https://easyopenhub.com/en/modly/): Generate 3D models from images locally on your GPU
 - [Mika](https://easyopenhub.com/en/mika/): An AI agent that operates Android apps for you
@@ -55,10 +62,13 @@
 - [Hallmark](https://easyopenhub.com/en/nutlope-hallmark/): Stops AI coding tools from generating generic website designs
 - [unslop](https://easyopenhub.com/en/unslop/): Turns generic, AI-looking UI into a clean, designed interface.
 - [rea-video](https://easyopenhub.com/en/rea-video/): Reverse-engineers videos shot-by-shot to reveal how they were made
+- [FunClip](https://easyopenhub.com/en/funclip/): Clip video clips simply by selecting transcribed speech text. Free alternative to Descript.
 - [Roubao (肉包)](https://easyopenhub.com/en/roubao/): An AI agent that operates apps directly on your phone
 - [PowerToys](https://easyopenhub.com/en/powertoys/): A handy toolbox to tune and speed up Windows.
 - [Excalidraw](https://easyopenhub.com/en/excalidraw/): Sketch hand-drawn diagrams on a collaborative whiteboard. Free alternative to Miro, Lucidchart.
+- [RustDesk](https://easyopenhub.com/en/rustdesk/): Access and control computers remotely without setup. Free alternative to TeamViewer, AnyDesk.
 - [LocalSend](https://easyopenhub.com/en/localsend/): Share files and text securely across nearby devices without internet. Free alternative to AirDrop, SHAREit.
+- [OpenCut](https://easyopenhub.com/en/opencut/): Free and open-source video editor in your browser Free alternative to CapCut.
 - [Ventoy](https://easyopenhub.com/en/ventoy/): Create a multi-boot USB by just copying image files. Free alternative to Rufus, Etcher.
 - [AppFlowy](https://easyopenhub.com/en/appflowy/): An open-source, private workspace alternative to Notion. Free alternative to Notion.
 - [uBlock Origin](https://easyopenhub.com/en/ublock-origin/): Block ads, trackers, and malicious sites in your browser. Free alternative to AdGuard, AdBlock Plus.
@@ -73,11 +83,14 @@
 - [Bulk Crap Uninstaller](https://easyopenhub.com/en/bulk-crap-uninstaller/): Quickly remove large numbers of unwanted Windows programs. Free alternative to Revo Uninstaller, IObit Uninstaller.
 - [Maccy](https://easyopenhub.com/en/maccy/): A lightweight clipboard history manager for your Mac. Free alternative to Paste.
 - [Kap](https://easyopenhub.com/en/kap/): Record your Mac screen easily from the menu bar. Free alternative to Loom, CleanShot X, Snagit.
+- [scrcpy](https://easyopenhub.com/en/scrcpy/): Display and control your Android phone from your computer. Free alternative to Vysor, ApowerMirror.
 - [Syncthing](https://easyopenhub.com/en/syncthing/): Continuous and secure file synchronization between your computers Free alternative to Dropbox, Google Drive, OneDrive.
 - [OBS Studio](https://easyopenhub.com/en/obs-studio/): Free software for video recording and live streaming. Free alternative to Bandicam, XSplit.
 - [Stirling PDF](https://easyopenhub.com/en/stirling-pdf/): Self-hosted all-in-one PDF editing tool platform Free alternative to Adobe Acrobat, Smallpdf, ILovePDF.
 - [Mindustry](https://easyopenhub.com/en/mindustry/): An automation tower defense and real-time strategy game. Free alternative to Factorio.
+- [osu! (lazer)](https://easyopenhub.com/en/osu/): Play and tap along to the rhythm of music.
 - [Lichess](https://easyopenhub.com/en/lichess-lila/): Play chess online for free without any ads. Free alternative to Chess.com.
+- [OpenRA](https://easyopenhub.com/en/openra/): Play classic real-time strategy games on modern computers Free alternative to Command & Conquer: Red Alert.
 - [Magpie](https://easyopenhub.com/en/magpie/): Upscale windowed games and apps with sharp modern filters. Free alternative to Lossless Scaling.
 - [Luanti](https://easyopenhub.com/en/luanti/): Play and build custom block-based sandbox worlds for free. Free alternative to Minecraft.
 - [2048](https://easyopenhub.com/en/2048/): Slide and merge matching numbers to reach 2048.
@@ -95,8 +108,10 @@
 - [Awesome GPT Image 2](https://easyopenhub.com/en/awesome-gpt-image-2/): Browse and copy over 500 AI image prompts.
 - [Easy-Vibe](https://easyopenhub.com/en/easy-vibe/): Learn to build software products using AI coding tools.
 - [Jane Street Agent Skills](https://easyopenhub.com/en/agent-skills/): Turn your chatbot into a strict Socratic tutor.
+- [LLM-RL-Visualized](https://easyopenhub.com/en/llm-rl-visualized/): 100+ visual diagrams explaining LLMs and reinforcement learning algorithms
 - [macOS Security and Privacy Guide](https://easyopenhub.com/en/macos-security-and-privacy-guide/): A practical checklist to lock down your Mac's privacy.
 - [HelloGitHub](https://easyopenhub.com/en/hellogithub/): Monthly showcase of fun, beginner-friendly open-source projects
+- [iptv-org](https://easyopenhub.com/en/iptv/): Watch free publicly available TV channels from around the world.
 - [科技爱好者周刊 (Weekly)](https://easyopenhub.com/en/ruanyf-weekly/): A weekly curated read of interesting tech and life insights.
 - [HowToCook](https://easyopenhub.com/en/how-to-cook/): Clear, precise home cooking recipes written like step-by-step code.
 - [HowToLiveBetter (高性价比人生指南)](https://easyopenhub.com/en/how-to-live-better/): Evidence-based practical advice for health, money, and law.
