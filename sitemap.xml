@@ -33,6 +33,8 @@
 <url><loc>https://easyopenhub.com/en/pyvideotrans/</loc></url>
 <url><loc>https://easyopenhub.com/zh/surfsense/</loc></url>
 <url><loc>https://easyopenhub.com/en/surfsense/</loc></url>
+<url><loc>https://easyopenhub.com/zh/palmier-pro/</loc></url>
+<url><loc>https://easyopenhub.com/en/palmier-pro/</loc></url>
 <url><loc>https://easyopenhub.com/zh/browseros/</loc></url>
 <url><loc>https://easyopenhub.com/en/browseros/</loc></url>
 <url><loc>https://easyopenhub.com/zh/diffusionbee-stable-diffusion-ui/</loc></url>
@@ -45,6 +47,8 @@
 <url><loc>https://easyopenhub.com/en/magic-resume/</loc></url>
 <url><loc>https://easyopenhub.com/zh/rtranslator/</loc></url>
 <url><loc>https://easyopenhub.com/en/rtranslator/</loc></url>
+<url><loc>https://easyopenhub.com/zh/fastrepl-anarlog/</loc></url>
+<url><loc>https://easyopenhub.com/en/fastrepl-anarlog/</loc></url>
 <url><loc>https://easyopenhub.com/zh/noi/</loc></url>
 <url><loc>https://easyopenhub.com/en/noi/</loc></url>
 <url><loc>https://easyopenhub.com/zh/stability-matrix/</loc></url>
@@ -71,6 +75,8 @@
 <url><loc>https://easyopenhub.com/en/gpt-sovits/</loc></url>
 <url><loc>https://easyopenhub.com/zh/cherry-studio/</loc></url>
 <url><loc>https://easyopenhub.com/en/cherry-studio/</loc></url>
+<url><loc>https://easyopenhub.com/zh/airi/</loc></url>
+<url><loc>https://easyopenhub.com/en/airi/</loc></url>
 <url><loc>https://easyopenhub.com/zh/prompt-optimizer/</loc></url>
 <url><loc>https://easyopenhub.com/en/prompt-optimizer/</loc></url>
 <url><loc>https://easyopenhub.com/zh/craft-anything/</loc></url>
@@ -111,6 +117,8 @@
 <url><loc>https://easyopenhub.com/en/nutlope-hallmark/</loc></url>
 <url><loc>https://easyopenhub.com/zh/unslop/</loc></url>
 <url><loc>https://easyopenhub.com/en/unslop/</loc></url>
+<url><loc>https://easyopenhub.com/zh/openmotion/</loc></url>
+<url><loc>https://easyopenhub.com/en/openmotion/</loc></url>
 <url><loc>https://easyopenhub.com/zh/rea-video/</loc></url>
 <url><loc>https://easyopenhub.com/en/rea-video/</loc></url>
 <url><loc>https://easyopenhub.com/zh/funclip/</loc></url>
@@ -139,6 +147,12 @@
 <url><loc>https://easyopenhub.com/en/joplin/</loc></url>
 <url><loc>https://easyopenhub.com/zh/iina/</loc></url>
 <url><loc>https://easyopenhub.com/en/iina/</loc></url>
+<url><loc>https://easyopenhub.com/zh/reactive-resume/</loc></url>
+<url><loc>https://easyopenhub.com/en/reactive-resume/</loc></url>
+<url><loc>https://easyopenhub.com/zh/sharex/</loc></url>
+<url><loc>https://easyopenhub.com/en/sharex/</loc></url>
+<url><loc>https://easyopenhub.com/zh/rufus/</loc></url>
+<url><loc>https://easyopenhub.com/en/rufus/</loc></url>
 <url><loc>https://easyopenhub.com/zh/flameshot/</loc></url>
 <url><loc>https://easyopenhub.com/en/flameshot/</loc></url>
 <url><loc>https://easyopenhub.com/zh/keepassxc/</loc></url>
@@ -155,6 +169,16 @@
 <url><loc>https://easyopenhub.com/en/maccy/</loc></url>
 <url><loc>https://easyopenhub.com/zh/kap/</loc></url>
 <url><loc>https://easyopenhub.com/en/kap/</loc></url>
+<url><loc>https://easyopenhub.com/zh/bentopdf/</loc></url>
+<url><loc>https://easyopenhub.com/en/bentopdf/</loc></url>
+<url><loc>https://easyopenhub.com/zh/organic-maps/</loc></url>
+<url><loc>https://easyopenhub.com/en/organic-maps/</loc></url>
+<url><loc>https://easyopenhub.com/zh/zotero/</loc></url>
+<url><loc>https://easyopenhub.com/en/zotero/</loc></url>
+<url><loc>https://easyopenhub.com/zh/shotcut/</loc></url>
+<url><loc>https://easyopenhub.com/en/shotcut/</loc></url>
+<url><loc>https://easyopenhub.com/zh/twinkle-tray/</loc></url>
+<url><loc>https://easyopenhub.com/en/twinkle-tray/</loc></url>
 <url><loc>https://easyopenhub.com/zh/scrcpy/</loc></url>
 <url><loc>https://easyopenhub.com/en/scrcpy/</loc></url>
 <url><loc>https://easyopenhub.com/zh/syncthing/</loc></url>
@@ -227,6 +251,8 @@
 <url><loc>https://easyopenhub.com/en/bongocat/</loc></url>
 <url><loc>https://easyopenhub.com/zh/best-app/</loc></url>
 <url><loc>https://easyopenhub.com/en/best-app/</loc></url>
+<url><loc>https://easyopenhub.com/zh/how-to-live-better-web/</loc></url>
+<url><loc>https://easyopenhub.com/en/how-to-live-better-web/</loc></url>
 <url><loc>https://easyopenhub.com/zh/word-atlas/</loc></url>
 <url><loc>https://easyopenhub.com/en/word-atlas/</loc></url>
 <url><loc>https://easyopenhub.com/zh/folio-2025/</loc></url>
