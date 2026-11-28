@@ -586,11 +586,11 @@
    "for": "Journalists, students, podcasters and anyone transcribing interviews or meetings who doesn’t want to upload them.",
    "skip": "You have an Intel Mac and want the newest version: Intel support stopped at 1.4.5.",
    "steps": [
-    "Download the .dmg from the official SourceForge page.",
+    "Use a download button above, or get the newest version from the official SourceForge page.",
     "Pick a Whisper model (smaller is faster).",
     "Drop in a file and export the transcript or subtitles."
    ],
-   "note": "Current versions need an Apple Silicon Mac.",
+   "note": "The download buttons above are version 1.4.5 from GitHub, the last one that also runs on Intel Macs. Newer versions (Apple Silicon only) are on the official SourceForge page.",
    "faq": []
   },
   "zh": {
@@ -599,11 +599,11 @@
    "for": "要整理采访、会议、播客，又不想上传录音的记者、学生和创作者。",
    "skip": "用 Intel Mac 又想要最新版的人：Intel 支持停在 1.4.5。",
    "steps": [
-    "从官方 SourceForge 页面下载 .dmg。",
+    "用上面的下载按钮，或者到官方 SourceForge 页面下最新版。",
     "选一个 Whisper 模型（越小越快）。",
     "拖入文件，导出文字稿或字幕。"
    ],
-   "note": "当前版本需要 M 芯片 Mac。",
+   "note": "上面按钮是 GitHub 上的 1.4.5，也是最后一个支持 Intel Mac 的版本。更新的版本（只支持 M 芯片）在官方 SourceForge 页面。",
    "faq": []
   }
  },
