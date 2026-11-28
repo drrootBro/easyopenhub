@@ -51,6 +51,33 @@
    }
   ]
  },
+ "Augani/openreel-video": {
+  "version": "v1.2.1",
+  "updated_at": "2026-11-28",
+  "release_url": "https://github.com/Augani/openreel-video/releases/tag/v1.2.1",
+  "downloads": [
+   {
+    "arch": "apple_silicon",
+    "label": "Download for Apple Silicon (M1–M4)",
+    "url": "https://github.com/Augani/openreel-video/releases/download/v1.2.1/OpenReel-1.2.1-arm64.dmg",
+    "file": "OpenReel-1.2.1-arm64.dmg",
+    "size_mb": 166.7
+   },
+   {
+    "arch": "intel",
+    "label": "Download for Intel Mac",
+    "url": "https://github.com/Augani/openreel-video/releases/download/v1.2.1/OpenReel-1.2.1-x64.dmg",
+    "file": "OpenReel-1.2.1-x64.dmg",
+    "size_mb": 173.5
+   }
+  ]
+ },
+ "CapSoftware/Cap": {
+  "version": "cap-v0.6.3",
+  "updated_at": "2026-11-11",
+  "release_url": "https://github.com/CapSoftware/Cap/releases/tag/cap-v0.6.3",
+  "downloads": []
+ },
  "ChatGPTNextWeb/NextChat": {
   "version": "v2.16.1",
   "updated_at": "2025-07-29",
@@ -85,23 +112,23 @@
   "downloads": []
  },
  "DayuanJiang/next-ai-draw-io": {
-  "version": "v0.5.1",
-  "updated_at": "2026-10-31",
-  "release_url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/tag/v0.5.1",
+  "version": "v0.5.2",
+  "updated_at": "2026-11-28",
+  "release_url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/tag/v0.5.2",
   "downloads": [
    {
     "arch": "apple_silicon",
     "label": "Download for Apple Silicon (M1–M4)",
-    "url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next-AI-Draw.io-0.5.1-arm64.dmg",
-    "file": "Next-AI-Draw.io-0.5.1-arm64.dmg",
-    "size_mb": 280.3
+    "url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.2/Next-AI-Draw.io-0.5.2-arm64.dmg",
+    "file": "Next-AI-Draw.io-0.5.2-arm64.dmg",
+    "size_mb": 180.9
    },
    {
     "arch": "intel",
     "label": "Download for Intel Mac",
-    "url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next-AI-Draw.io-0.5.1.dmg",
-    "file": "Next-AI-Draw.io-0.5.1.dmg",
-    "size_mb": 286.8
+    "url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.2/Next-AI-Draw.io-0.5.2.dmg",
+    "file": "Next-AI-Draw.io-0.5.2.dmg",
+    "size_mb": 187.4
    }
   ]
  },
@@ -111,10 +138,28 @@
   "release_url": "https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v26.11.25",
   "downloads": []
  },
+ "GNOME/gimp": {
+  "version": null,
+  "updated_at": null,
+  "release_url": null,
+  "downloads": []
+ },
  "Genymobile/scrcpy": {
   "version": "v5.0.1",
   "updated_at": "2026-10-08",
   "release_url": "https://github.com/Genymobile/scrcpy/releases/tag/v5.0.1",
+  "downloads": []
+ },
+ "KDE/kdenlive": {
+  "version": null,
+  "updated_at": null,
+  "release_url": null,
+  "downloads": []
+ },
+ "KDE/krita": {
+  "version": null,
+  "updated_at": null,
+  "release_url": null,
   "downloads": []
  },
  "KnifeLemon/Filee": {
@@ -137,6 +182,12 @@
     "size_mb": 152.2
    }
   ]
+ },
+ "LibreOffice/core": {
+  "version": null,
+  "updated_at": null,
+  "release_url": null,
+  "downloads": []
  },
  "LykosAI/StabilityMatrix": {
   "version": "v2.17.0",
@@ -184,6 +235,27 @@
     "url": "https://github.com/Mintplex-Labs/anything-llm/releases/download/v1.20.0/AnythingLLMDesktop.dmg",
     "file": "AnythingLLMDesktop.dmg",
     "size_mb": 525.8
+   }
+  ]
+ },
+ "ONLYOFFICE/DesktopEditors": {
+  "version": "v10.0.0",
+  "updated_at": "2026-10-13",
+  "release_url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v10.0.0",
+  "downloads": [
+   {
+    "arch": "apple_silicon",
+    "label": "Download for Apple Silicon (M1–M4)",
+    "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/ONLYOFFICE-arm.dmg",
+    "file": "ONLYOFFICE-arm.dmg",
+    "size_mb": 324.4
+   },
+   {
+    "arch": "intel",
+    "label": "Download for Intel Mac",
+    "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/ONLYOFFICE-x86_64.dmg",
+    "file": "ONLYOFFICE-x86_64.dmg",
+    "size_mb": 336.6
    }
   ]
  },
@@ -262,6 +334,34 @@
    }
   ]
  },
+ "audacity/audacity": {
+  "version": "Audacity-4.0.2",
+  "updated_at": "2026-11-02",
+  "release_url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.2",
+  "downloads": [
+   {
+    "arch": "universal",
+    "label": "Download for Mac (Universal)",
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-universal.dmg",
+    "file": "audacity-macOS-4.0.2-universal.dmg",
+    "size_mb": 87.7
+   },
+   {
+    "arch": "apple_silicon",
+    "label": "Download for Apple Silicon (M1–M4)",
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-arm64.dmg",
+    "file": "audacity-macOS-4.0.2-arm64.dmg",
+    "size_mb": 47.7
+   },
+   {
+    "arch": "intel",
+    "label": "Download for Intel Mac",
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-x86_64.dmg",
+    "file": "audacity-macOS-4.0.2-x86_64.dmg",
+    "size_mb": 51.9
+   }
+  ]
+ },
  "ayangweb/BongoCat": {
   "version": "v2.4.1",
   "updated_at": "2026-10-28",
@@ -289,6 +389,27 @@
   "release_url": "https://github.com/browseros-ai/BrowserOS/releases/tag/ext-browserclaw/v0.2.70.0",
   "downloads": []
  },
+ "chidiwilliams/buzz": {
+  "version": "v1.4.5",
+  "updated_at": "2026-08-23",
+  "release_url": "https://github.com/chidiwilliams/buzz/releases/tag/v1.4.5",
+  "downloads": [
+   {
+    "arch": "apple_silicon",
+    "label": "Download for Apple Silicon (M1–M4)",
+    "url": "https://github.com/chidiwilliams/buzz/releases/download/v1.4.5/Buzz-1.4.5-mac-ARM64.dmg",
+    "file": "Buzz-1.4.5-mac-ARM64.dmg",
+    "size_mb": 447.6
+   },
+   {
+    "arch": "intel",
+    "label": "Download for Intel Mac",
+    "url": "https://github.com/chidiwilliams/buzz/releases/download/v1.4.5/Buzz-1.4.5-mac-X64.dmg",
+    "file": "Buzz-1.4.5-mac-X64.dmg",
+    "size_mb": 515.1
+   }
+  ]
+ },
  "cjpais/Handy": {
   "version": "v0.10.2",
   "updated_at": "2026-11-24",
@@ -307,6 +428,20 @@
     "url": "https://github.com/cjpais/Handy/releases/download/v0.10.2/Handy_0.10.2_x64.dmg",
     "file": "Handy_0.10.2_x64.dmg",
     "size_mb": 14.6
+   }
+  ]
+ },
+ "darktable-org/darktable": {
+  "version": "release-5.6.2",
+  "updated_at": "2026-10-04",
+  "release_url": "https://github.com/darktable-org/darktable/releases/tag/release-5.6.2",
+  "downloads": [
+   {
+    "arch": "apple_silicon",
+    "label": "Download for Apple Silicon (M1–M4)",
+    "url": "https://github.com/darktable-org/darktable/releases/download/release-5.6.2/darktable-5.6.2-arm64.dmg",
+    "file": "darktable-5.6.2-arm64.dmg",
+    "size_mb": 84.8
    }
   ]
  },
@@ -410,6 +545,12 @@
     "size_mb": 107.9
    }
   ]
+ },
+ "inkscape/inkscape": {
+  "version": null,
+  "updated_at": null,
+  "release_url": null,
+  "downloads": []
  },
  "jamiepine/voicebox": {
   "version": "v0.6.1",
@@ -744,6 +885,12 @@
     "size_mb": 36.0
    }
   ]
+ },
+ "sindresorhus/Gifski": {
+  "version": "v3.0.6",
+  "updated_at": "2026-09-11",
+  "release_url": "https://github.com/sindresorhus/Gifski/releases/tag/v3.0.6",
+  "downloads": []
  },
  "super-productivity/super-productivity": {
   "version": "v20.1.0",
