@@ -5,7 +5,8 @@ Writes ONLY data/releases.json. Never touches data/github_apps.json or data/manu
 Auth: env GITHUB_TOKEN (set automatically inside GitHub Actions). Works without it, but rate-limited to 60 calls/hour.
 
 For each repo:
-  - GET /repos/{owner}/{repo}/releases/latest  (GitHub already skips drafts and pre-releases here)
+  - GET /repos/{owner}/{repo}/releases: newest release that is not a draft, not flagged pre-release,
+    and whose tag doesn't say alpha / beta / rc / nightly / canary / preview / dev
   - keep assets ending in .dmg, label each by chip:
       universal (or one .dmg with no chip in its name) -> "Download for Mac (Universal)"
       arm64 / aarch64 / apple-silicon / m1 / apple     -> "Download for Apple Silicon (M1–M4)"
@@ -22,6 +23,7 @@ LABEL = {"universal": "Download for Mac (Universal)",
          "apple_silicon": "Download for Apple Silicon (M1–M4)",
          "intel": "Download for Intel Mac"}
 ORDER = {"universal": 0, "apple_silicon": 1, "intel": 2}
+UNSTABLE = re.compile(r"(alpha|beta|\brc\.?\d*\b|nightly|canary|preview|\bdev\b)", re.I)  # authors sometimes forget the pre-release flag
 SKIP_WORDS = {"debug", "symbols", "dsym", "source", "src"}
 
 
@@ -30,7 +32,7 @@ def arch_of(name):
     toks = set(re.split(r"[^a-z0-9]+", n))
     if "universal" in toks or "univ" in toks:
         return "universal"
-    if toks & {"arm64", "aarch64", "arm", "m1", "applesilicon", "apple"} or re.search(r"apple[-_ .]?silicon", n):
+    if toks & {"arm64", "aarch64", "arm", "m1", "applesilicon", "apple", "silicon"} or re.search(r"apple[-_ .]?silicon", n):
         return "apple_silicon"
     if toks & {"x64", "intel", "amd64", "x86"} or re.search(r"x86[-_]?64", n):
         return "intel"
@@ -73,7 +75,10 @@ def main():
         if not repo or a.get("status") == "retired" or "macOS" not in (a.get("platforms") or []):
             continue
         try:
-            rel = get(f"https://api.github.com/repos/{repo}/releases/latest", token)
+            rels = get(f"https://api.github.com/repos/{repo}/releases?per_page=20", token)
+            rel = next((r for r in rels if not r.get("draft") and not r.get("prerelease") and not UNSTABLE.search(r.get("tag_name") or "")), None)
+            if rel is None:
+                raise urllib.error.HTTPError(repo, 404, "no stable release", None, None)
             entry = {"version": rel.get("tag_name") or rel.get("name"),
                      "updated_at": (rel.get("published_at") or "")[:10],
                      "release_url": rel.get("html_url"),
