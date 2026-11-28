@@ -1,10 +1,168 @@
 [
  {
+  "slug": "openreel-video",
+  "name": "OpenReel Video",
+  "repo": "Augani/openreel-video",
+  "status": "priority",
+  "rank": 1,
+  "group": "Screen & Video",
+  "alternative_to": [
+   "CapCut",
+   "Premiere Pro"
+  ],
+  "pitch": "A CapCut-style video editor that keeps your footage on your own computer, with no watermark and no subscription.",
+  "category": "tool",
+  "platforms": [
+   "Web",
+   "macOS",
+   "Windows"
+  ],
+  "official_url": "https://openreel.video",
+  "video": null,
+  "shot": null,
+  "license": "MIT",
+  "stars": null,
+  "difficulty": 1,
+  "tags": [],
+  "keyword": "free video editor (619) · capcut for mac (66) · capcut alternative (43)",
+  "en": {
+   "one_liner": "CapCut-style video editor with no uploads, no watermark",
+   "what": "OpenReel Video is a full video editor that runs on your own device: a multi-track timeline, transitions, text animations, word-by-word karaoke subtitles, color grading, audio effects and noise removal. Your videos are never uploaded, and exports carry no watermark.",
+   "for": "People who edit short videos for TikTok, Reels or YouTube and want CapCut-style tools without sending clips to a cloud.",
+   "skip": "You need pro finishing tools like Final Cut’s or a stable, finished product: it is still marked beta.",
+   "steps": [
+    "Use the Mac download above, or open openreel.video in Chrome or Edge.",
+    "Drag your clips onto the timeline.",
+    "Add text, music and effects, then export."
+   ],
+   "note": "Still in beta. The browser version needs Chrome or Edge.",
+   "faq": []
+  },
+  "zh": {
+   "one_liner": "对标剪映/CapCut 的视频剪辑器，素材不上传、无水印",
+   "what": "OpenReel Video 是一个完整的视频剪辑器，在你自己的设备上运行：多轨时间线、转场、文字动画、逐字卡拉 OK 字幕、调色、音效和降噪。视频不会上传，导出也没有水印。",
+   "for": "剪抖音、Reels、YouTube 短视频，想要剪映那套功能又不想把素材传到云端的人。",
+   "skip": "需要 Final Cut 那种专业精修，或者要求非常稳定的人：它还标着测试版。",
+   "steps": [
+    "用上面的 Mac 下载按钮，或者用 Chrome/Edge 打开 openreel.video。",
+    "把素材拖到时间线上。",
+    "加字幕、音乐和特效，然后导出。"
+   ],
+   "note": "还在测试阶段。网页版需要 Chrome 或 Edge。",
+   "faq": []
+  }
+ },
+ {
+  "slug": "kdenlive",
+  "name": "Kdenlive",
+  "repo": "KDE/kdenlive",
+  "status": "priority",
+  "rank": 2,
+  "group": "Screen & Video",
+  "alternative_to": [
+   "Premiere Pro",
+   "CapCut",
+   "Final Cut Pro"
+  ],
+  "pitch": "A full multi-track video editor for Mac, Windows and Linux, with no watermark and no subscription.",
+  "category": "tool",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "Linux"
+  ],
+  "official_url": "https://kdenlive.org/download/",
+  "video": null,
+  "shot": null,
+  "license": "GPL-3.0",
+  "stars": null,
+  "difficulty": 1,
+  "tags": [],
+  "keyword": "free video editor (619) · video editor mac (78)",
+  "en": {
+   "one_liner": "Full multi-track video editor with no watermark",
+   "what": "Kdenlive is a mature video editor from the KDE community: multi-track timeline, hundreds of effects and transitions, title templates, color correction, proxy editing for 4K and automatic subtitles from speech. It has been developed for over 20 years.",
+   "for": "YouTubers and hobby editors who outgrew CapCut and don’t want to pay for Premiere Pro.",
+   "skip": "You only trim clips now and then: the Photos app or iMovie is simpler.",
+   "steps": [
+    "Download the macOS .dmg from the official site.",
+    "Create a project and drag clips into the bin.",
+    "Edit on the timeline, then Render to export."
+   ],
+   "note": "The Mac version is newer than the Linux one, so expect the odd rough edge.",
+   "faq": []
+  },
+  "zh": {
+   "one_liner": "老牌多轨视频剪辑器，无水印",
+   "what": "Kdenlive 是 KDE 社区做了 20 多年的视频剪辑器：多轨时间线、几百种特效和转场、字幕模板、调色、4K 代理剪辑，还能根据语音自动生成字幕。",
+   "for": "剪剪映不够用、又不想给 Premiere 付订阅的 YouTuber 和剪辑爱好者。",
+   "skip": "偶尔剪一下片段的人：照片 App 或 iMovie 更简单。",
+   "steps": [
+    "从官网下载 macOS .dmg。",
+    "新建项目，把素材拖进素材箱。",
+    "在时间线上剪辑，点「渲染」导出。"
+   ],
+   "note": "Mac 版比 Linux 版新，偶尔会有小毛病。",
+   "faq": []
+  }
+ },
+ {
+  "slug": "gifski",
+  "name": "Gifski",
+  "repo": "sindresorhus/Gifski",
+  "status": "priority",
+  "rank": 3,
+  "group": "Screen & Video",
+  "alternative_to": [
+   "GIF Brewery",
+   "Permute"
+  ],
+  "pitch": "Turn any MP4 or screen recording into a sharp, small GIF on your Mac.",
+  "category": "tool",
+  "platforms": [
+   "macOS"
+  ],
+  "official_url": "https://apps.apple.com/app/id1351639930",
+  "video": null,
+  "shot": null,
+  "license": "MIT",
+  "stars": null,
+  "difficulty": 1,
+  "tags": [],
+  "keyword": "mp4 to gif (504)",
+  "en": {
+   "one_liner": "Convert MP4 and screen recordings to high-quality GIFs",
+   "what": "Gifski turns videos into GIFs with much better colors than typical converters, using smart palettes and dithering. You can change size, speed, frame rate, quality, crop and looping, make bounce (yo-yo) GIFs, and convert straight from the Share menu or a Finder Quick Action.",
+   "for": "Anyone who sends GIFs in Slack, docs, bug reports or social posts.",
+   "skip": "You need to edit the video itself first.",
+   "steps": [
+    "Get it from the Mac App Store (official link above).",
+    "Drag a video into the window.",
+    "Adjust size and quality, then save or copy the GIF."
+   ],
+   "note": "The current version needs macOS 26. Older versions for earlier macOS are linked in the project’s GitHub README.",
+   "faq": []
+  },
+  "zh": {
+   "one_liner": "把 MP4 和录屏转成高清 GIF",
+   "what": "Gifski 把视频转成 GIF，颜色比一般转换器好得多。可以调尺寸、速度、帧率、画质、裁剪和循环，能做来回播放的 GIF，还能从「共享」菜单或访达快速操作直接转换。",
+   "for": "经常在 Slack、文档、问题反馈或社交平台发 GIF 的人。",
+   "skip": "需要先剪辑视频本身的人。",
+   "steps": [
+    "从 Mac App Store 下载（上面的官方链接）。",
+    "把视频拖进窗口。",
+    "调好尺寸和画质，保存或复制 GIF。"
+   ],
+   "note": "最新版需要 macOS 26，旧系统可用的旧版本在项目 GitHub 说明里。",
+   "faq": []
+  }
+ },
+ {
   "slug": "appflowy",
   "name": "AppFlowy",
   "repo": "AppFlowy-IO/AppFlowy",
   "status": "priority",
-  "rank": 1,
+  "rank": 4,
   "group": "Productivity",
   "alternative_to": [
    "Notion"
@@ -91,7 +249,7 @@
   "name": "KeePassXC",
   "repo": "keepassxreboot/keepassxc",
   "status": "priority",
-  "rank": 2,
+  "rank": 5,
   "group": "Utilities",
   "alternative_to": [
    "1Password",
@@ -172,7 +330,7 @@
   "name": "RustDesk",
   "repo": "rustdesk/rustdesk",
   "status": "priority",
-  "rank": 3,
+  "rank": 6,
   "group": "Utilities",
   "alternative_to": [
    "TeamViewer",
@@ -259,7 +417,7 @@
   "name": "LocalSend",
   "repo": "localsend/localsend",
   "status": "priority",
-  "rank": 4,
+  "rank": 7,
   "group": "Utilities",
   "alternative_to": [
    "AirDrop",
@@ -343,11 +501,581 @@
   }
  },
  {
+  "slug": "audacity",
+  "name": "Audacity",
+  "repo": "audacity/audacity",
+  "status": "priority",
+  "rank": 8,
+  "group": "Voice & Audio",
+  "alternative_to": [
+   "Adobe Audition",
+   "Hindenburg"
+  ],
+  "pitch": "Record and edit podcasts, voiceovers and music on your Mac without an Adobe subscription.",
+  "category": "tool",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "Linux"
+  ],
+  "official_url": "https://www.audacityteam.org/download/mac/",
+  "video": null,
+  "shot": null,
+  "license": "GPL-3.0",
+  "stars": null,
+  "difficulty": 1,
+  "tags": [],
+  "keyword": "podcast editor (176)",
+  "en": {
+   "one_liner": "Multi-track audio editor and recorder",
+   "what": "Audacity records and edits audio: cut, fade, mix several tracks, remove background noise, normalize loudness and export to MP3, WAV and more. It is one of the most widely used audio editors in the world.",
+   "for": "Podcasters, voiceover artists, teachers and musicians who edit audio.",
+   "skip": "You want a full music studio with virtual instruments: try GarageBand.",
+   "steps": [
+    "Use the Mac download above.",
+    "Press Record, or drag in an audio file.",
+    "Select a part and apply effects such as Noise Reduction, then File → Export."
+   ],
+   "note": "",
+   "faq": []
+  },
+  "zh": {
+   "one_liner": "多轨录音和音频剪辑",
+   "what": "Audacity 能录音、剪音频：剪切、淡入淡出、多轨混音、去背景噪音、统一音量，再导出成 MP3、WAV 等格式。是全世界用得最多的音频编辑器之一。",
+   "for": "做播客、配音、录课和做音乐的人。",
+   "skip": "想要带虚拟乐器的完整编曲软件的人：用 GarageBand。",
+   "steps": [
+    "用上面的 Mac 下载按钮。",
+    "点录音，或者把音频文件拖进来。",
+    "选中一段加效果（比如降噪），然后「文件 → 导出」。"
+   ],
+   "note": "",
+   "faq": []
+  }
+ },
+ {
+  "slug": "buzz",
+  "name": "Buzz",
+  "repo": "chidiwilliams/buzz",
+  "status": "priority",
+  "rank": 9,
+  "group": "Voice & Audio",
+  "alternative_to": [
+   "MacWhisper Pro",
+   "Otter.ai",
+   "Rev"
+  ],
+  "pitch": "Transcribe audio and video to text on your own Mac, offline, with no per-minute fees.",
+  "category": "ai",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "Linux"
+  ],
+  "official_url": "https://sourceforge.net/projects/buzz-captions/files/",
+  "video": null,
+  "shot": null,
+  "license": "MIT",
+  "stars": null,
+  "difficulty": 1,
+  "tags": [],
+  "keyword": "transcribe audio to text (167) · speech to text mac (74)",
+  "en": {
+   "one_liner": "Offline audio and video transcription with Whisper",
+   "what": "Buzz transcribes and translates audio on your own computer using OpenAI’s Whisper models. It handles files, YouTube links and live microphone input, can tell speakers apart, and exports TXT, SRT and VTT subtitles. A watch folder can transcribe new files automatically.",
+   "for": "Journalists, students, podcasters and anyone transcribing interviews or meetings who doesn’t want to upload them.",
+   "skip": "You have an Intel Mac and want the newest version: Intel support stopped at 1.4.5.",
+   "steps": [
+    "Download the .dmg from the official SourceForge page.",
+    "Pick a Whisper model (smaller is faster).",
+    "Drop in a file and export the transcript or subtitles."
+   ],
+   "note": "Current versions need an Apple Silicon Mac.",
+   "faq": []
+  },
+  "zh": {
+   "one_liner": "用 Whisper 离线把音视频转成文字",
+   "what": "Buzz 在你自己电脑上用 OpenAI 的 Whisper 模型做转写和翻译，支持音视频文件、YouTube 链接和麦克风实时转写，能区分说话人，导出 TXT、SRT、VTT 字幕，还能监控文件夹自动转写新文件。",
+   "for": "要整理采访、会议、播客，又不想上传录音的记者、学生和创作者。",
+   "skip": "用 Intel Mac 又想要最新版的人：Intel 支持停在 1.4.5。",
+   "steps": [
+    "从官方 SourceForge 页面下载 .dmg。",
+    "选一个 Whisper 模型（越小越快）。",
+    "拖入文件，导出文字稿或字幕。"
+   ],
+   "note": "当前版本需要 M 芯片 Mac。",
+   "faq": []
+  }
+ },
+ {
+  "slug": "libreoffice",
+  "name": "LibreOffice",
+  "repo": "LibreOffice/core",
+  "status": "priority",
+  "rank": 10,
+  "group": "Productivity",
+  "alternative_to": [
+   "Microsoft 365",
+   "Excel",
+   "Microsoft Word"
+  ],
+  "pitch": "A complete office suite (Word, Excel and PowerPoint equivalents) that opens Microsoft files, with no Microsoft 365 subscription.",
+  "category": "tool",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "Linux"
+  ],
+  "official_url": "https://www.libreoffice.org/download/download-libreoffice/",
+  "video": null,
+  "shot": null,
+  "license": "MPL-2.0",
+  "stars": null,
+  "difficulty": 1,
+  "tags": [],
+  "keyword": "excel alternative (153)",
+  "en": {
+   "one_liner": "Complete office suite that opens Word, Excel and PowerPoint files",
+   "what": "LibreOffice includes Writer (documents), Calc (spreadsheets), Impress (slides), Draw and Base. It opens and saves .docx, .xlsx and .pptx files and exports PDFs. Everything runs on your own computer.",
+   "for": "Anyone who needs Word or Excel occasionally and is tired of paying for Microsoft 365.",
+   "skip": "Your team lives in shared Microsoft 365 or Google Docs files with real-time co-editing.",
+   "steps": [
+    "Download the macOS version for your chip (Apple Silicon or Intel) from the official site.",
+    "Open the .dmg and drag LibreOffice to Applications.",
+    "Open any .docx or .xlsx file."
+   ],
+   "note": "Complex Excel macros and some advanced formatting may look different.",
+   "faq": []
+  },
+  "zh": {
+   "one_liner": "完整办公套件，能打开 Word、Excel、PPT 文件",
+   "what": "LibreOffice 包含 Writer（文档）、Calc（表格）、Impress（幻灯片）、Draw 和 Base，能打开和保存 .docx、.xlsx、.pptx，也能导出 PDF，全部在自己电脑上运行。",
+   "for": "偶尔要用 Word、Excel，又不想续费 Microsoft 365 的人。",
+   "skip": "团队天天在 Microsoft 365 或 Google 文档里实时协作的人。",
+   "steps": [
+    "到官网按芯片（M 芯片或 Intel）下载 macOS 版。",
+    "打开 .dmg，把 LibreOffice 拖进「应用程序」。",
+    "打开任意 .docx 或 .xlsx 文件。"
+   ],
+   "note": "复杂的 Excel 宏和部分高级排版可能显示不一样。",
+   "faq": []
+  }
+ },
+ {
+  "slug": "upscayl",
+  "name": "Upscayl",
+  "repo": "upscayl/upscayl",
+  "status": "priority",
+  "rank": 11,
+  "group": "AI",
+  "alternative_to": [
+   "Topaz Gigapixel AI"
+  ],
+  "pitch": "Enlarge and enhance low-resolution images using local AI.",
+  "category": "ai",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "official_url": "https://upscayl.org",
+  "video": {
+   "en": "e9WO4XmeRAo",
+   "zh": "JG-_bzorRA4",
+   "live_from": "2026-11-24"
+  },
+  "shot": "shots/upscayl.webp",
+  "license": "AGPL-3.0",
+  "stars": 52507,
+  "difficulty": 1,
+  "tags": [
+   "image",
+   "local-ai",
+   "productivity"
+  ],
+  "en": {
+   "one_liner": "Enlarge and enhance low-resolution images using local AI.",
+   "what": "Upscayl is a desktop application that sharpens and enlarges blurry or low-resolution images. It runs AI models directly on your computer to add missing details without uploading your photos anywhere.",
+   "for": "Anyone wanting to make low-resolution photos clearer and larger.",
+   "skip": "People with completely blurry, out-of-focus photos or lacking a dedicated GPU.",
+   "steps": [
+    "Download and install the app from upscayl.org",
+    "Open the app and select your image",
+    "Choose an AI model and click upscale"
+   ],
+   "note": "Requires a Vulkan-compatible graphics card (most integrated graphics will not work).",
+   "faq": [
+    {
+     "q": "Is Upscayl free?",
+     "a": "Yes, Upscayl is completely free and open-source under the AGPL-3.0 license, requiring no subscriptions or API keys."
+    },
+    {
+     "q": "Is Upscayl safe to download?",
+     "a": "It is open source (AGPL-3.0 license) with 52,507 GitHub stars, last updated 2026-10-05. Download only from the official link on this page, and scan the file before installing: see the safety checklist in our beginner guide."
+    },
+    {
+     "q": "Does Upscayl work offline?",
+     "a": "Yes, Upscayl processes all images locally on your computer using your graphics card, so your photos are never uploaded to the cloud."
+    }
+   ]
+  },
+  "zh": {
+   "one_liner": "用本地 AI 免费无损放大并修复模糊图片",
+   "what": "Upscayl 是一款运行在电脑本地的 AI 图片放大工具。它能智能补充图像细节，将模糊或低分辨率的图片放大并变清晰，全程不把图片传到任何云端。",
+   "for": "需要将模糊、小尺寸旧图或插画放大修复的人。",
+   "skip": "原图严重脱焦虚焦，或电脑没有独立显卡的人。",
+   "steps": [
+    "在官网下载并安装对应的桌面客户端",
+    "打开软件并载入需要放大的图片",
+    "选择 AI 模型并点击开始放大"
+   ],
+   "note": "电脑必须配备支持 Vulkan 的独立显卡，多数核显无法正常运行。",
+   "faq": [
+    {
+     "q": "Upscayl 是免费的吗？",
+     "a": "是的，Upscayl 采用 AGPL-3.0 开源协议，完全免费使用，无需购买订阅或配置 API 密钥。"
+    },
+    {
+     "q": "Upscayl 下载安全吗？",
+     "a": "它是开源项目（AGPL-3.0 授权），GitHub 52,507 星，最近更新 2026-10-05。只从本页的官方链接下载，安装前先扫一遍，具体做法见新手指南里的“下载安全”一节。"
+    },
+    {
+     "q": "Upscayl 可以离线使用吗？",
+     "a": "可以。所有 AI 模型均在本地显卡上运行，处理过程中完全不需要联网，图片不会被上传到任何云端。"
+    }
+   ]
+  }
+ },
+ {
+  "slug": "onlyoffice",
+  "name": "ONLYOFFICE Desktop Editors",
+  "repo": "ONLYOFFICE/DesktopEditors",
+  "status": "priority",
+  "rank": 12,
+  "group": "Productivity",
+  "alternative_to": [
+   "Microsoft 365",
+   "Excel",
+   "Microsoft Word"
+  ],
+  "pitch": "An office suite that looks like Microsoft Office and keeps .docx, .xlsx and .pptx formatting, with no subscription.",
+  "category": "tool",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "Linux"
+  ],
+  "official_url": "https://www.onlyoffice.com/download-desktop",
+  "video": null,
+  "shot": null,
+  "license": "AGPL-3.0",
+  "stars": null,
+  "difficulty": 1,
+  "tags": [],
+  "keyword": "excel alternative (153)",
+  "en": {
+   "one_liner": "Microsoft-style office suite for documents, spreadsheets, slides and PDFs",
+   "what": "ONLYOFFICE Desktop Editors combines a document editor, spreadsheet, presentation editor and PDF editor in one app with tabs. Its main strength is Microsoft format compatibility: .docx, .xlsx and .pptx files keep their layout.",
+   "for": "People switching from Microsoft Office who want the same ribbon-style look and fewer formatting surprises.",
+   "skip": "You need Microsoft-only features like Power Query or VBA macros.",
+   "steps": [
+    "Download the .dmg from the official site.",
+    "Drag it to Applications and open it.",
+    "Open or create a document, spreadsheet or presentation."
+   ],
+   "note": "",
+   "faq": []
+  },
+  "zh": {
+   "one_liner": "长得像 Office 的办公套件：文档、表格、幻灯片和 PDF",
+   "what": "ONLYOFFICE 桌面版把文档、表格、幻灯片和 PDF 编辑器放在一个带标签页的软件里，最大优点是和微软格式兼容好：.docx、.xlsx、.pptx 排版基本不乱。",
+   "for": "从微软 Office 换过来、想要同样界面、少点格式问题的人。",
+   "skip": "要用 Power Query、VBA 宏这类微软独有功能的人。",
+   "steps": [
+    "从官网下载 .dmg。",
+    "拖进「应用程序」并打开。",
+    "打开或新建文档、表格、幻灯片。"
+   ],
+   "note": "",
+   "faq": []
+  }
+ },
+ {
+  "slug": "gimp",
+  "name": "GIMP",
+  "repo": "GNOME/gimp",
+  "status": "priority",
+  "rank": 13,
+  "group": "Photo & Design",
+  "alternative_to": [
+   "Adobe Photoshop"
+  ],
+  "pitch": "The best-known Photoshop alternative: layers, masks, retouching and RAW editing on your Mac, with no Adobe subscription.",
+  "category": "tool",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "Linux"
+  ],
+  "official_url": "https://www.gimp.org/downloads/",
+  "video": null,
+  "shot": null,
+  "license": "GPL-3.0",
+  "stars": null,
+  "difficulty": 1,
+  "tags": [],
+  "keyword": "photoshop alternative (100)",
+  "en": {
+   "one_liner": "Photo editor with layers, masks and retouching tools",
+   "what": "GIMP is a full image editor: layers and masks, selections, healing and clone tools, filters, text and support for Photoshop PSD files. GIMP 3 added non-destructive filters and a cleaner interface.",
+   "for": "Photographers, designers and makers who need Photoshop-level editing and won’t pay for Creative Cloud.",
+   "skip": "You depend on Photoshop’s AI features or must exchange complex PSDs with a design team.",
+   "steps": [
+    "Download the macOS .dmg for your chip from gimp.org.",
+    "Open a photo with File → Open.",
+    "Edit with layers and tools, then File → Export As."
+   ],
+   "note": "Shortcuts and menus differ from Photoshop; expect a short learning curve.",
+   "faq": []
+  },
+  "zh": {
+   "one_liner": "有图层、蒙版和修图工具的图片编辑器",
+   "what": "GIMP 是完整的图片编辑软件：图层和蒙版、选区、修复和仿制工具、滤镜、文字，还能打开 Photoshop 的 PSD 文件。GIMP 3 加了非破坏性滤镜，界面也更清爽。",
+   "for": "需要 Photoshop 级别修图、又不想交 Creative Cloud 的摄影师、设计师和创作者。",
+   "skip": "离不开 Photoshop 的 AI 功能，或者要和设计团队来回传复杂 PSD 的人。",
+   "steps": [
+    "到 gimp.org 按芯片下载 macOS .dmg。",
+    "「文件 → 打开」一张照片。",
+    "用图层和工具编辑，再「文件 → 导出为」。"
+   ],
+   "note": "快捷键和菜单和 Photoshop 不一样，需要适应一下。",
+   "faq": []
+  }
+ },
+ {
+  "slug": "krita",
+  "name": "Krita",
+  "repo": "KDE/krita",
+  "status": "priority",
+  "rank": 14,
+  "group": "Photo & Design",
+  "alternative_to": [
+   "Adobe Photoshop",
+   "Procreate",
+   "Clip Studio Paint"
+  ],
+  "pitch": "A professional painting app for digital art and comics on your Mac, with no subscription.",
+  "category": "tool",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "Linux",
+   "Android"
+  ],
+  "official_url": "https://krita.org/en/download/",
+  "video": null,
+  "shot": null,
+  "license": "GPL-3.0",
+  "stars": null,
+  "difficulty": 1,
+  "tags": [],
+  "keyword": "photoshop alternative (100)",
+  "en": {
+   "one_liner": "Professional digital painting and illustration app",
+   "what": "Krita is built for drawing and painting: hundreds of brushes, brush stabilizers, layers, wrap-around mode for textures, comic panel tools and frame-by-frame animation. It opens and saves PSD files.",
+   "for": "Illustrators, comic artists and hobby painters using a drawing tablet.",
+   "skip": "You mostly retouch photos: GIMP fits better.",
+   "steps": [
+    "Download the macOS .dmg from krita.org.",
+    "Create a new canvas.",
+    "Pick a brush and start painting; export with File → Export."
+   ],
+   "note": "Works best with a pen tablet.",
+   "faq": []
+  },
+  "zh": {
+   "one_liner": "专业数字绘画和插画软件",
+   "what": "Krita 专为画画设计：几百种笔刷、防抖、图层、无缝贴图模式、漫画分格工具和逐帧动画，能打开和保存 PSD。",
+   "for": "用数位板画插画、漫画的人。",
+   "skip": "主要修照片的人：用 GIMP 更合适。",
+   "steps": [
+    "到 krita.org 下载 macOS .dmg。",
+    "新建画布。",
+    "选笔刷开始画，用「文件 → 导出」保存。"
+   ],
+   "note": "配数位板用最好。",
+   "faq": []
+  }
+ },
+ {
+  "slug": "jan",
+  "name": "Jan",
+  "repo": "janhq/jan",
+  "status": "priority",
+  "rank": 15,
+  "group": "AI",
+  "alternative_to": [
+   "ChatGPT Plus",
+   "Claude Pro"
+  ],
+  "pitch": "Run private AI models completely offline on your computer",
+  "category": "ai",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "official_url": "https://jan.ai/",
+  "video": null,
+  "shot": null,
+  "license": "NOASSERTION",
+  "stars": 45713,
+  "difficulty": 1,
+  "tags": [
+   "chat",
+   "local-ai",
+   "privacy"
+  ],
+  "en": {
+   "one_liner": "Run private AI models completely offline on your computer",
+   "what": "Jan is a desktop app that acts as an alternative to ChatGPT. It lets you download and run open AI models like Llama and Qwen directly on your machine without sending data to the cloud. You can also connect external services like OpenAI or Anthropic if desired.",
+   "for": "Anyone wanting a private, offline AI assistant on desktop",
+   "skip": "People who only want mobile apps or lightweight web chats",
+   "steps": [
+    "Download and install the app for your OS",
+    "Pick and download a local model like Llama",
+    "Start chatting completely offline"
+   ],
+   "note": "Running models locally requires sufficient RAM (8GB to 32GB+ depending on model size).",
+   "faq": [
+    {
+     "q": "Is Jan free?",
+     "a": "Yes, Jan is completely free to download and use for running local AI models on your computer. You only incur costs if you choose to connect optional paid cloud APIs like OpenAI or Anthropic."
+    },
+    {
+     "q": "Is Jan safe to download?",
+     "a": "It is open source (NOASSERTION license) with 45,713 GitHub stars, last updated 2026-11-13. Download only from the official link on this page, and scan the file before installing: see the safety checklist in our beginner guide."
+    },
+    {
+     "q": "Does Jan work offline?",
+     "a": "Yes, Jan works completely offline once you download local models such as Llama or Qwen to your machine. Your chats and data stay entirely on your computer without being sent to the cloud."
+    }
+   ]
+  },
+  "zh": {
+   "one_liner": "在电脑本地断网运行的开源AI助手",
+   "what": "Jan 是一款桌面端 AI 对话软件，可作为 ChatGPT 的替代方案。它让你能直接在自己电脑上下载并运行 Llama、千问等开源模型，聊天记录完全不上云。你也可以按需配置连接 OpenAI 或 Claude 等云端服务。",
+   "for": "注重数据隐私或想离线使用 AI 的电脑用户",
+   "skip": "只用手机或只依赖在线网页版 AI 的人",
+   "steps": [
+    "下载并安装对应系统的安装包",
+    "在软件内挑选并下载所需的本地模型",
+    "打开对话框即可离线开始聊天"
+   ],
+   "note": "本地跑大模型对电脑配置有要求，通常需要 8GB 到 32GB 以上内存。",
+   "faq": [
+    {
+     "q": "Jan 是免费的吗？",
+     "a": "是的，Jan 完全免费，你可以免费下载并在本地运行各类开源大模型。只有当你主动配置 OpenAI 等第三方付费 API 时才会产生外部费用。"
+    },
+    {
+     "q": "Jan 下载安全吗？",
+     "a": "它是开源项目（NOASSERTION 授权），GitHub 45,713 星，最近更新 2026-11-13。只从本页的官方链接下载，安装前先扫一遍，具体做法见新手指南里的“下载安全”一节。"
+    },
+    {
+     "q": "Jan 支持断网离线使用吗？",
+     "a": "支持。只要在本地下载好 Llama 或千问等模型，日常对话即可在完全断网的环境下运行，聊天记录绝不上云。"
+    }
+   ]
+  }
+ },
+ {
+  "slug": "ollama",
+  "name": "Ollama",
+  "repo": "ollama/ollama",
+  "status": "priority",
+  "rank": 16,
+  "group": "AI",
+  "alternative_to": [
+   "ChatGPT Plus"
+  ],
+  "pitch": "Run powerful AI models entirely on your own computer.",
+  "category": "ai",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "Linux"
+  ],
+  "official_url": "https://ollama.com",
+  "video": null,
+  "shot": null,
+  "license": "MIT",
+  "stars": 186900,
+  "difficulty": 3,
+  "tags": [
+   "local-ai",
+   "privacy",
+   "chat"
+  ],
+  "en": {
+   "one_liner": "Run powerful AI models entirely on your own computer.",
+   "what": "Ollama lets you download and run large language models on your local machine. You can chat with models directly from your terminal or connect them to desktop and web apps. Everything runs on your hardware, keeping your conversations private.",
+   "for": "Anyone wanting to run AI models locally for total privacy.",
+   "skip": "People who only want a standard browser chat like ChatGPT.",
+   "steps": [
+    "Download installer for Mac, Windows, or Linux.",
+    "Open your terminal and type ollama.",
+    "Run ollama run gemma4 to chat."
+   ],
+   "note": "Requires using the command line to start and download models.",
+   "faq": [
+    {
+     "q": "Is Ollama free?",
+     "a": "Yes, Ollama is completely free and open-source under the MIT license, requiring no API keys or subscriptions to run local models."
+    },
+    {
+     "q": "Is Ollama safe to download?",
+     "a": "It is open source (MIT license) with 186,900 GitHub stars, last updated 2026-11-14. Download only from the official link on this page, and scan the file before installing: see the safety checklist in our beginner guide."
+    },
+    {
+     "q": "Does Ollama work offline?",
+     "a": "Yes, once you download your chosen models, Ollama runs entirely on your local hardware without needing an internet connection."
+    }
+   ]
+  },
+  "zh": {
+   "one_liner": "在自己的电脑上直接运行本地AI模型",
+   "what": "Ollama 让你能在自己的电脑上直接下载并运行各种开源大模型。你可以直接在终端命令行里和它对话，也能把它接入各类桌面或网页聊天软件。整个运行过程完全在本地，聊天内容不用上传给第三方。",
+   "for": "想在本地离线跑AI、注重数据隐私的人",
+   "skip": "习惯直接开网页用现成在线聊天机器人的普通人",
+   "steps": [
+    "下载并安装对应系统的安装包",
+    "打开电脑的终端运行 ollama",
+    "输入命令下载并运行指定模型开启对话"
+   ],
+   "note": "没有自带的图形聊天界面，需要使用命令行操作或搭配第三方客户端。",
+   "faq": [
+    {
+     "q": "Ollama 是免费的吗？",
+     "a": "是的，Ollama 采用 MIT 开源协议，完全免费使用，无需购买任何 API 密钥或订阅服务。"
+    },
+    {
+     "q": "Ollama 下载安全吗？",
+     "a": "它是开源项目（MIT 授权），GitHub 186,900 星，最近更新 2026-11-14。只从本页的官方链接下载，安装前先扫一遍，具体做法见新手指南里的“下载安全”一节。"
+    },
+    {
+     "q": "Ollama 可以离线使用吗？",
+     "a": "可以。只要在联网时把模型下载到电脑上，后续运行和对话过程完全在本地硬件进行，无需连接网络。"
+    }
+   ]
+  }
+ },
+ {
   "slug": "kap",
   "name": "Kap",
   "repo": "wulkano/Kap",
   "status": "priority",
-  "rank": 5,
+  "rank": 17,
   "group": "Screen & Video",
   "alternative_to": [
    "Screen Studio",
@@ -424,11 +1152,64 @@
   }
  },
  {
+  "slug": "cap",
+  "name": "Cap",
+  "repo": "CapSoftware/Cap",
+  "status": "priority",
+  "rank": 18,
+  "group": "Screen & Video",
+  "alternative_to": [
+   "Loom",
+   "Screen Studio"
+  ],
+  "pitch": "Record your screen and camera, polish it with zooms and backgrounds, and share a link: an open-source Loom alternative.",
+  "category": "tool",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "Linux"
+  ],
+  "official_url": "https://cap.so/download",
+  "video": null,
+  "shot": null,
+  "license": "AGPL-3.0",
+  "stars": null,
+  "difficulty": 1,
+  "tags": [],
+  "keyword": "screen recorder mac (53)",
+  "en": {
+   "one_liner": "Screen recorder with instant share links and a polish editor",
+   "what": "Cap records your screen, camera and microphone. Instant Mode gives you a share link the moment you stop. Studio Mode records locally and lets you add backgrounds, zooms, captions and trims before exporting. You can keep recordings local or use your own storage.",
+   "for": "Anyone recording product demos, tutorials, bug reports or async updates.",
+   "skip": "You only need a quick screenshot: use Flameshot or the built-in Cmd+Shift+5.",
+   "steps": [
+    "Download Cap for macOS from the official site.",
+    "Pick Instant Mode or Studio Mode.",
+    "Record, then share the link or export the file."
+   ],
+   "note": "Cap’s hosted cloud has paid plans. Recording locally works without them.",
+   "faq": []
+  },
+  "zh": {
+   "one_liner": "能一键出分享链接的录屏工具，带美化编辑",
+   "what": "Cap 录屏幕、摄像头和麦克风。「即时模式」停止录制就给你分享链接；「工作室模式」在本地录，可以加背景、缩放、字幕和剪辑再导出。录像可以只存本地，或存到你自己的存储。",
+   "for": "录产品演示、教程、问题反馈和异步汇报的人。",
+   "skip": "只要截图的人：用 Flameshot 或系统自带 Cmd+Shift+5。",
+   "steps": [
+    "从官网下载 macOS 版 Cap。",
+    "选即时模式或工作室模式。",
+    "录完分享链接或导出文件。"
+   ],
+   "note": "Cap 的云服务有付费套餐，只在本地录不需要付费。",
+   "faq": []
+  }
+ },
+ {
   "slug": "obs-studio",
   "name": "OBS Studio",
   "repo": "obsproject/obs-studio",
   "status": "priority",
-  "rank": 6,
+  "rank": 19,
   "group": "Screen & Video",
   "alternative_to": [
    "Camtasia",
@@ -515,7 +1296,7 @@
   "name": "Shotcut",
   "repo": "mltframework/shotcut",
   "status": "priority",
-  "rank": 7,
+  "rank": 20,
   "group": "Screen & Video",
   "alternative_to": [
    "Final Cut Pro",
@@ -600,7 +1381,7 @@
   "name": "IINA",
   "repo": "iina/iina",
   "status": "priority",
-  "rank": 8,
+  "rank": 21,
   "group": "Screen & Video",
   "alternative_to": [
    "Infuse",
@@ -680,7 +1461,7 @@
   "name": "Maccy",
   "repo": "p0deje/Maccy",
   "status": "priority",
-  "rank": 9,
+  "rank": 22,
   "group": "Productivity",
   "alternative_to": [
    "Paste",
@@ -759,8 +1540,8 @@
   "name": "Handy",
   "repo": "cjpais/Handy",
   "status": "priority",
-  "rank": 10,
-  "group": "Voice & Dictation",
+  "rank": 23,
+  "group": "Voice & Audio",
   "alternative_to": [
    "Wispr Flow",
    "Superwhisper",
@@ -846,8 +1627,8 @@
   "name": "OpenWhispr",
   "repo": "OpenWhispr/openwhispr",
   "status": "priority",
-  "rank": 11,
-  "group": "Voice & Dictation",
+  "rank": 24,
+  "group": "Voice & Audio",
   "alternative_to": [
    "Wispr Flow",
    "Otter.ai"
@@ -928,8 +1709,8 @@
   "name": "FluidVoice",
   "repo": "altic-dev/FluidVoice",
   "status": "priority",
-  "rank": 12,
-  "group": "Voice & Dictation",
+  "rank": 25,
+  "group": "Voice & Audio",
   "alternative_to": [
    "Superwhisper",
    "Wispr Flow"
@@ -1004,88 +1785,108 @@
   }
  },
  {
-  "slug": "upscayl",
-  "name": "Upscayl",
-  "repo": "upscayl/upscayl",
+  "slug": "inkscape",
+  "name": "Inkscape",
+  "repo": "inkscape/inkscape",
   "status": "priority",
-  "rank": 13,
-  "group": "AI",
+  "rank": 26,
+  "group": "Photo & Design",
   "alternative_to": [
-   "Topaz Gigapixel AI"
+   "Adobe Illustrator"
   ],
-  "pitch": "Enlarge and enhance low-resolution images using local AI.",
-  "category": "ai",
+  "pitch": "A vector design app for logos, icons and print on your Mac: the classic Illustrator alternative, with no subscription.",
+  "category": "tool",
   "platforms": [
-   "Windows",
    "macOS",
+   "Windows",
    "Linux"
   ],
-  "official_url": "https://upscayl.org",
-  "video": {
-   "en": "e9WO4XmeRAo",
-   "zh": "JG-_bzorRA4",
-   "live_from": "2026-11-24"
-  },
-  "shot": "shots/upscayl.webp",
-  "license": "AGPL-3.0",
-  "stars": 52507,
+  "official_url": "https://inkscape.org/release/",
+  "video": null,
+  "shot": null,
+  "license": "GPL-3.0",
+  "stars": null,
   "difficulty": 1,
-  "tags": [
-   "image",
-   "local-ai",
-   "productivity"
-  ],
+  "tags": [],
+  "keyword": "illustrator alternative (46)",
   "en": {
-   "one_liner": "Enlarge and enhance low-resolution images using local AI.",
-   "what": "Upscayl is a desktop application that sharpens and enlarges blurry or low-resolution images. It runs AI models directly on your computer to add missing details without uploading your photos anywhere.",
-   "for": "Anyone wanting to make low-resolution photos clearer and larger.",
-   "skip": "People with completely blurry, out-of-focus photos or lacking a dedicated GPU.",
+   "one_liner": "Vector graphics editor for logos, icons and print",
+   "what": "Inkscape draws with shapes, paths and text that stay sharp at any size. It works in SVG and can import and export PDF, EPS and PNG, with tools for tracing bitmaps, aligning, and laying out pages.",
+   "for": "Small-business owners, makers (Cricut, laser cutters) and designers making logos and illustrations.",
+   "skip": "You only need quick social graphics: a template tool is faster.",
    "steps": [
-    "Download and install the app from upscayl.org",
-    "Open the app and select your image",
-    "Choose an AI model and click upscale"
+    "Download the macOS .dmg for your chip from inkscape.org.",
+    "Draw with the shape, pen and text tools.",
+    "Save as SVG or export PNG / PDF."
    ],
-   "note": "Requires a Vulkan-compatible graphics card (most integrated graphics will not work).",
-   "faq": [
-    {
-     "q": "Is Upscayl free?",
-     "a": "Yes, Upscayl is completely free and open-source under the AGPL-3.0 license, requiring no subscriptions or API keys."
-    },
-    {
-     "q": "Is Upscayl safe to download?",
-     "a": "It is open source (AGPL-3.0 license) with 52,507 GitHub stars, last updated 2026-10-05. Download only from the official link on this page, and scan the file before installing: see the safety checklist in our beginner guide."
-    },
-    {
-     "q": "Does Upscayl work offline?",
-     "a": "Yes, Upscayl processes all images locally on your computer using your graphics card, so your photos are never uploaded to the cloud."
-    }
-   ]
+   "note": "",
+   "faq": []
   },
   "zh": {
-   "one_liner": "用本地 AI 免费无损放大并修复模糊图片",
-   "what": "Upscayl 是一款运行在电脑本地的 AI 图片放大工具。它能智能补充图像细节，将模糊或低分辨率的图片放大并变清晰，全程不把图片传到任何云端。",
-   "for": "需要将模糊、小尺寸旧图或插画放大修复的人。",
-   "skip": "原图严重脱焦虚焦，或电脑没有独立显卡的人。",
+   "one_liner": "做 Logo、图标和印刷品的矢量设计软件",
+   "what": "Inkscape 用图形、路径和文字作图，放多大都清晰。原生 SVG，能导入导出 PDF、EPS、PNG，还有位图描摹、对齐和多页排版工具。",
+   "for": "做 Logo 和插画的小老板、设计师，以及用 Cricut、激光切割的手工玩家。",
+   "skip": "只想快速做社交配图的人：用模板工具更快。",
    "steps": [
-    "在官网下载并安装对应的桌面客户端",
-    "打开软件并载入需要放大的图片",
-    "选择 AI 模型并点击开始放大"
+    "到 inkscape.org 按芯片下载 macOS .dmg。",
+    "用形状、钢笔和文字工具绘制。",
+    "存成 SVG，或导出 PNG/PDF。"
    ],
-   "note": "电脑必须配备支持 Vulkan 的独立显卡，多数核显无法正常运行。",
-   "faq": [
-    {
-     "q": "Upscayl 是免费的吗？",
-     "a": "是的，Upscayl 采用 AGPL-3.0 开源协议，完全免费使用，无需购买订阅或配置 API 密钥。"
-    },
-    {
-     "q": "Upscayl 下载安全吗？",
-     "a": "它是开源项目（AGPL-3.0 授权），GitHub 52,507 星，最近更新 2026-10-05。只从本页的官方链接下载，安装前先扫一遍，具体做法见新手指南里的“下载安全”一节。"
-    },
-    {
-     "q": "Upscayl 可以离线使用吗？",
-     "a": "可以。所有 AI 模型均在本地显卡上运行，处理过程中完全不需要联网，图片不会被上传到任何云端。"
-    }
-   ]
+   "note": "",
+   "faq": []
+  }
+ },
+ {
+  "slug": "darktable",
+  "name": "darktable",
+  "repo": "darktable-org/darktable",
+  "status": "priority",
+  "rank": 27,
+  "group": "Photo & Design",
+  "alternative_to": [
+   "Adobe Lightroom",
+   "Capture One"
+  ],
+  "pitch": "A Lightroom-style RAW photo editor and library for your Mac, with no Adobe subscription.",
+  "category": "tool",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "Linux"
+  ],
+  "official_url": "https://www.darktable.org/install/",
+  "video": null,
+  "shot": null,
+  "license": "GPL-3.0",
+  "stars": null,
+  "difficulty": 1,
+  "tags": [],
+  "keyword": "lightroom alternative (46)",
+  "en": {
+   "one_liner": "RAW photo editor and library like Lightroom",
+   "what": "darktable organizes your photo library and develops RAW files non-destructively: exposure, color, tone curves, lens correction, noise reduction, masks and presets. Newer versions add AI tools that run locally (CoreML on Apple Silicon).",
+   "for": "Photographers who shoot RAW and want to leave Lightroom’s subscription.",
+   "skip": "You want one-tap filters: it has a learning curve.",
+   "steps": [
+    "Download the macOS .dmg above.",
+    "Import a folder of photos in the lighttable view.",
+    "Double-click a photo to edit it in the darkroom view, then export."
+   ],
+   "note": "Powerful but less beginner-friendly than Lightroom.",
+   "faq": []
+  },
+  "zh": {
+   "one_liner": "类似 Lightroom 的 RAW 照片编辑和图库",
+   "what": "darktable 管理照片库，非破坏性地处理 RAW：曝光、色彩、曲线、镜头校正、降噪、蒙版和预设。新版还有本地运行的 AI 工具（M 芯片用 CoreML）。",
+   "for": "拍 RAW、想摆脱 Lightroom 订阅的摄影师。",
+   "skip": "只想一键滤镜的人：它需要学一阵。",
+   "steps": [
+    "用上面的 Mac 下载按钮。",
+    "在「光台」导入照片文件夹。",
+    "双击照片进「暗房」编辑，然后导出。"
+   ],
+   "note": "功能强，但对新手不如 Lightroom 友好。",
+   "faq": []
   }
  },
  {
@@ -1093,7 +1894,7 @@
   "name": "Joplin",
   "repo": "laurent22/joplin",
   "status": "priority",
-  "rank": 14,
+  "rank": 28,
   "group": "Productivity",
   "alternative_to": [
    "Evernote",
@@ -1181,7 +1982,7 @@
   "name": "Zotero",
   "repo": "zotero/zotero",
   "status": "priority",
-  "rank": 15,
+  "rank": 29,
   "group": "Productivity",
   "alternative_to": [
    "EndNote",
@@ -1266,7 +2067,7 @@
   "name": "Flameshot",
   "repo": "flameshot-org/flameshot",
   "status": "priority",
-  "rank": 16,
+  "rank": 30,
   "group": "Screen & Video",
   "alternative_to": [
    "CleanShot X",
@@ -1348,7 +2149,7 @@
   "name": "draw.io Desktop",
   "repo": "jgraph/drawio-desktop",
   "status": "priority",
-  "rank": 17,
+  "rank": 31,
   "group": "Productivity",
   "alternative_to": [
    "Microsoft Visio",
@@ -1430,7 +2231,7 @@
   "name": "Syncthing",
   "repo": "syncthing/syncthing",
   "status": "priority",
-  "rank": 18,
+  "rank": 32,
   "group": "Utilities",
   "alternative_to": [
    "Dropbox",
@@ -1512,7 +2313,7 @@
   "name": "Super Productivity",
   "repo": "super-productivity/super-productivity",
   "status": "priority",
-  "rank": 19,
+  "rank": 33,
   "group": "Productivity",
   "alternative_to": [
    "Todoist",
@@ -1598,8 +2399,8 @@
   "name": "Meetily",
   "repo": "Zackriya-Solutions/meetily",
   "status": "priority",
-  "rank": 20,
-  "group": "Voice & Dictation",
+  "rank": 34,
+  "group": "Voice & Audio",
   "alternative_to": [
    "Otter.ai",
    "Fireflies.ai"
@@ -1680,8 +2481,8 @@
   "name": "anarlog",
   "repo": "fastrepl/anarlog",
   "status": "priority",
-  "rank": 21,
-  "group": "Voice & Dictation",
+  "rank": 35,
+  "group": "Voice & Audio",
   "alternative_to": [
    "Granola",
    "Otter.ai"
@@ -1760,174 +2561,11 @@
   }
  },
  {
-  "slug": "jan",
-  "name": "Jan",
-  "repo": "janhq/jan",
-  "status": "priority",
-  "rank": 22,
-  "group": "AI",
-  "alternative_to": [
-   "ChatGPT Plus",
-   "Claude Pro"
-  ],
-  "pitch": "Run private AI models completely offline on your computer",
-  "category": "ai",
-  "platforms": [
-   "Windows",
-   "macOS",
-   "Linux"
-  ],
-  "official_url": "https://jan.ai/",
-  "video": null,
-  "shot": null,
-  "license": "NOASSERTION",
-  "stars": 45713,
-  "difficulty": 1,
-  "tags": [
-   "chat",
-   "local-ai",
-   "privacy"
-  ],
-  "en": {
-   "one_liner": "Run private AI models completely offline on your computer",
-   "what": "Jan is a desktop app that acts as an alternative to ChatGPT. It lets you download and run open AI models like Llama and Qwen directly on your machine without sending data to the cloud. You can also connect external services like OpenAI or Anthropic if desired.",
-   "for": "Anyone wanting a private, offline AI assistant on desktop",
-   "skip": "People who only want mobile apps or lightweight web chats",
-   "steps": [
-    "Download and install the app for your OS",
-    "Pick and download a local model like Llama",
-    "Start chatting completely offline"
-   ],
-   "note": "Running models locally requires sufficient RAM (8GB to 32GB+ depending on model size).",
-   "faq": [
-    {
-     "q": "Is Jan free?",
-     "a": "Yes, Jan is completely free to download and use for running local AI models on your computer. You only incur costs if you choose to connect optional paid cloud APIs like OpenAI or Anthropic."
-    },
-    {
-     "q": "Is Jan safe to download?",
-     "a": "It is open source (NOASSERTION license) with 45,713 GitHub stars, last updated 2026-11-13. Download only from the official link on this page, and scan the file before installing: see the safety checklist in our beginner guide."
-    },
-    {
-     "q": "Does Jan work offline?",
-     "a": "Yes, Jan works completely offline once you download local models such as Llama or Qwen to your machine. Your chats and data stay entirely on your computer without being sent to the cloud."
-    }
-   ]
-  },
-  "zh": {
-   "one_liner": "在电脑本地断网运行的开源AI助手",
-   "what": "Jan 是一款桌面端 AI 对话软件，可作为 ChatGPT 的替代方案。它让你能直接在自己电脑上下载并运行 Llama、千问等开源模型，聊天记录完全不上云。你也可以按需配置连接 OpenAI 或 Claude 等云端服务。",
-   "for": "注重数据隐私或想离线使用 AI 的电脑用户",
-   "skip": "只用手机或只依赖在线网页版 AI 的人",
-   "steps": [
-    "下载并安装对应系统的安装包",
-    "在软件内挑选并下载所需的本地模型",
-    "打开对话框即可离线开始聊天"
-   ],
-   "note": "本地跑大模型对电脑配置有要求，通常需要 8GB 到 32GB 以上内存。",
-   "faq": [
-    {
-     "q": "Jan 是免费的吗？",
-     "a": "是的，Jan 完全免费，你可以免费下载并在本地运行各类开源大模型。只有当你主动配置 OpenAI 等第三方付费 API 时才会产生外部费用。"
-    },
-    {
-     "q": "Jan 下载安全吗？",
-     "a": "它是开源项目（NOASSERTION 授权），GitHub 45,713 星，最近更新 2026-11-13。只从本页的官方链接下载，安装前先扫一遍，具体做法见新手指南里的“下载安全”一节。"
-    },
-    {
-     "q": "Jan 支持断网离线使用吗？",
-     "a": "支持。只要在本地下载好 Llama 或千问等模型，日常对话即可在完全断网的环境下运行，聊天记录绝不上云。"
-    }
-   ]
-  }
- },
- {
-  "slug": "ollama",
-  "name": "Ollama",
-  "repo": "ollama/ollama",
-  "status": "priority",
-  "rank": 23,
-  "group": "AI",
-  "alternative_to": [
-   "ChatGPT Plus"
-  ],
-  "pitch": "Run powerful AI models entirely on your own computer.",
-  "category": "ai",
-  "platforms": [
-   "macOS",
-   "Windows",
-   "Linux"
-  ],
-  "official_url": "https://ollama.com",
-  "video": null,
-  "shot": null,
-  "license": "MIT",
-  "stars": 186900,
-  "difficulty": 3,
-  "tags": [
-   "local-ai",
-   "privacy",
-   "chat"
-  ],
-  "en": {
-   "one_liner": "Run powerful AI models entirely on your own computer.",
-   "what": "Ollama lets you download and run large language models on your local machine. You can chat with models directly from your terminal or connect them to desktop and web apps. Everything runs on your hardware, keeping your conversations private.",
-   "for": "Anyone wanting to run AI models locally for total privacy.",
-   "skip": "People who only want a standard browser chat like ChatGPT.",
-   "steps": [
-    "Download installer for Mac, Windows, or Linux.",
-    "Open your terminal and type ollama.",
-    "Run ollama run gemma4 to chat."
-   ],
-   "note": "Requires using the command line to start and download models.",
-   "faq": [
-    {
-     "q": "Is Ollama free?",
-     "a": "Yes, Ollama is completely free and open-source under the MIT license, requiring no API keys or subscriptions to run local models."
-    },
-    {
-     "q": "Is Ollama safe to download?",
-     "a": "It is open source (MIT license) with 186,900 GitHub stars, last updated 2026-11-14. Download only from the official link on this page, and scan the file before installing: see the safety checklist in our beginner guide."
-    },
-    {
-     "q": "Does Ollama work offline?",
-     "a": "Yes, once you download your chosen models, Ollama runs entirely on your local hardware without needing an internet connection."
-    }
-   ]
-  },
-  "zh": {
-   "one_liner": "在自己的电脑上直接运行本地AI模型",
-   "what": "Ollama 让你能在自己的电脑上直接下载并运行各种开源大模型。你可以直接在终端命令行里和它对话，也能把它接入各类桌面或网页聊天软件。整个运行过程完全在本地，聊天内容不用上传给第三方。",
-   "for": "想在本地离线跑AI、注重数据隐私的人",
-   "skip": "习惯直接开网页用现成在线聊天机器人的普通人",
-   "steps": [
-    "下载并安装对应系统的安装包",
-    "打开电脑的终端运行 ollama",
-    "输入命令下载并运行指定模型开启对话"
-   ],
-   "note": "没有自带的图形聊天界面，需要使用命令行操作或搭配第三方客户端。",
-   "faq": [
-    {
-     "q": "Ollama 是免费的吗？",
-     "a": "是的，Ollama 采用 MIT 开源协议，完全免费使用，无需购买任何 API 密钥或订阅服务。"
-    },
-    {
-     "q": "Ollama 下载安全吗？",
-     "a": "它是开源项目（MIT 授权），GitHub 186,900 星，最近更新 2026-11-14。只从本页的官方链接下载，安装前先扫一遍，具体做法见新手指南里的“下载安全”一节。"
-    },
-    {
-     "q": "Ollama 可以离线使用吗？",
-     "a": "可以。只要在联网时把模型下载到电脑上，后续运行和对话过程完全在本地硬件进行，无需连接网络。"
-    }
-   ]
-  }
- },
- {
   "slug": "diffusionbee-stable-diffusion-ui",
   "name": "Diffusion Bee",
   "repo": "divamgupta/diffusionbee-stable-diffusion-ui",
   "status": "priority",
-  "rank": 24,
+  "rank": 36,
   "group": "AI",
   "alternative_to": [
    "Midjourney"
@@ -2006,7 +2644,7 @@
   "name": "Filee",
   "repo": "KnifeLemon/Filee",
   "status": "priority",
-  "rank": 25,
+  "rank": 37,
   "group": "Utilities",
   "alternative_to": [
    "Permute",
@@ -2088,8 +2726,8 @@
   "name": "Voicebox",
   "repo": "jamiepine/voicebox",
   "status": "priority",
-  "rank": 26,
-  "group": "Voice & Dictation",
+  "rank": 38,
+  "group": "Voice & Audio",
   "alternative_to": [
    "ElevenLabs",
    "Descript"
@@ -2170,8 +2808,8 @@
   "name": "VoiceStudio",
   "repo": "debpalash/VoiceStudio",
   "status": "priority",
-  "rank": 27,
-  "group": "Voice & Dictation",
+  "rank": 39,
+  "group": "Voice & Audio",
   "alternative_to": [
    "ElevenLabs"
   ],
@@ -2253,7 +2891,7 @@
   "name": "Cherry Studio",
   "repo": "CherryHQ/cherry-studio",
   "status": "priority",
-  "rank": 28,
+  "rank": 40,
   "group": "AI",
   "alternative_to": [
    "ChatGPT Plus",
@@ -2337,7 +2975,7 @@
   "name": "NextChat",
   "repo": "ChatGPTNextWeb/NextChat",
   "status": "priority",
-  "rank": 29,
+  "rank": 41,
   "group": "AI",
   "alternative_to": [
    "ChatGPT Plus",
@@ -2422,7 +3060,7 @@
   "name": "AnythingLLM",
   "repo": "Mintplex-Labs/anything-llm",
   "status": "priority",
-  "rank": 30,
+  "rank": 42,
   "group": "AI",
   "alternative_to": [
    "ChatGPT Plus",
@@ -2505,7 +3143,7 @@
   "name": "Palmier Pro",
   "repo": "palmier-io/palmier-pro",
   "status": "priority",
-  "rank": 31,
+  "rank": 43,
   "group": "Screen & Video",
   "alternative_to": [
    "Final Cut Pro",
@@ -2585,7 +3223,7 @@
   "name": "AutoClip",
   "repo": "zhouxiaoka/autoclip",
   "status": "priority",
-  "rank": 32,
+  "rank": 44,
   "group": "Screen & Video",
   "alternative_to": [
    "Opus Clip"
@@ -2666,8 +3304,8 @@
   "name": "Abogen",
   "repo": "denizsafak/abogen",
   "status": "priority",
-  "rank": 33,
-  "group": "Voice & Dictation",
+  "rank": 45,
+  "group": "Voice & Audio",
   "alternative_to": [
    "Speechify",
    "ElevenLabs"
@@ -2748,8 +3386,8 @@
   "name": "ebook2audiobook",
   "repo": "DrewThomasson/ebook2audiobook",
   "status": "priority",
-  "rank": 34,
-  "group": "Voice & Dictation",
+  "rank": 46,
+  "group": "Voice & Audio",
   "alternative_to": [
    "Speechify",
    "Audible"
@@ -2830,7 +3468,7 @@
   "name": "Noi",
   "repo": "lencx/Noi",
   "status": "priority",
-  "rank": 35,
+  "rank": 47,
   "group": "AI",
   "alternative_to": [
    "ChatGPT Plus",
@@ -2912,7 +3550,7 @@
   "name": "Khoj",
   "repo": "khoj-ai/khoj",
   "status": "priority",
-  "rank": 36,
+  "rank": 48,
   "group": "AI",
   "alternative_to": [
    "Notion AI",
@@ -2997,7 +3635,7 @@
   "name": "ComfyUI",
   "repo": "Comfy-Org/ComfyUI",
   "status": "priority",
-  "rank": 37,
+  "rank": 49,
   "group": "AI",
   "alternative_to": [
    "Midjourney",
@@ -3079,7 +3717,7 @@
   "name": "Generative AI for Krita",
   "repo": "Acly/krita-ai-diffusion",
   "status": "priority",
-  "rank": 38,
+  "rank": 50,
   "group": "AI",
   "alternative_to": [
    "Photoshop Generative Fill"
@@ -3159,7 +3797,7 @@
   "name": "Stability Matrix",
   "repo": "LykosAI/StabilityMatrix",
   "status": "priority",
-  "rank": 39,
+  "rank": 51,
   "group": "AI",
   "alternative_to": [
    "Midjourney"
@@ -3240,7 +3878,7 @@
   "name": "SurfSense",
   "repo": "MODSetter/SurfSense",
   "status": "priority",
-  "rank": 40,
+  "rank": 52,
   "group": "AI",
   "alternative_to": [
    "NotebookLM"
@@ -3321,7 +3959,7 @@
   "name": "Banana Slides",
   "repo": "Anionex/banana-slides",
   "status": "priority",
-  "rank": 41,
+  "rank": 53,
   "group": "AI",
   "alternative_to": [
    "Gamma"
@@ -3402,7 +4040,7 @@
   "name": "PPT Master",
   "repo": "hugohe3/ppt-master",
   "status": "priority",
-  "rank": 42,
+  "rank": 54,
   "group": "AI",
   "alternative_to": [
    "Gamma",
@@ -3483,7 +4121,7 @@
   "name": "pyVideoTrans",
   "repo": "jianchang512/pyvideotrans",
   "status": "priority",
-  "rank": 43,
+  "rank": 55,
   "group": "Screen & Video",
   "alternative_to": [
    "HeyGen",
@@ -3565,7 +4203,7 @@
   "name": "FunClip",
   "repo": "modelscope/FunClip",
   "status": "priority",
-  "rank": 44,
+  "rank": 56,
   "group": "Screen & Video",
   "alternative_to": [
    "Descript"
@@ -3647,7 +4285,7 @@
   "name": "LobsterAI",
   "repo": "netease-youdao/LobsterAI",
   "status": "priority",
-  "rank": 45,
+  "rank": 57,
   "group": "AI",
   "alternative_to": [
    "Microsoft Copilot"
@@ -3727,7 +4365,7 @@
   "name": "BrowserOS neo",
   "repo": "browseros-ai/BrowserOS",
   "status": "priority",
-  "rank": 46,
+  "rank": 58,
   "group": "AI",
   "alternative_to": [
    "Perplexity Comet"
@@ -3807,7 +4445,7 @@
   "name": "BentoPDF",
   "repo": "alam00000/bentopdf",
   "status": "priority",
-  "rank": 47,
+  "rank": 59,
   "group": "Utilities",
   "alternative_to": [
    "Adobe Acrobat",
@@ -3887,7 +4525,7 @@
   "name": "Excalidraw",
   "repo": "excalidraw/excalidraw",
   "status": "priority",
-  "rank": 48,
+  "rank": 60,
   "group": "Productivity",
   "alternative_to": [
    "Miro",
@@ -3967,7 +4605,7 @@
   "name": "uBlock Origin",
   "repo": "gorhill/uBlock",
   "status": "priority",
-  "rank": 49,
+  "rank": 61,
   "group": "Utilities",
   "alternative_to": [
    "AdGuard",
@@ -4047,7 +4685,7 @@
   "name": "scrcpy",
   "repo": "Genymobile/scrcpy",
   "status": "priority",
-  "rank": 50,
+  "rank": 62,
   "group": "Utilities",
   "alternative_to": [
    "Vysor"

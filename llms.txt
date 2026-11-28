@@ -7,11 +7,24 @@
 - [Alternatives to paid apps](https://easyopenhub.com/en/alternatives/)
 
 ## Mac apps
+- [OpenReel Video](https://easyopenhub.com/en/openreel-video/): A CapCut-style video editor that keeps your footage on your own computer, with no watermark and no subscription. Replaces CapCut, Premiere Pro.
+- [Kdenlive](https://easyopenhub.com/en/kdenlive/): A full multi-track video editor for Mac, Windows and Linux, with no watermark and no subscription. Replaces Premiere Pro, CapCut, Final Cut Pro.
+- [Gifski](https://easyopenhub.com/en/gifski/): Turn any MP4 or screen recording into a sharp, small GIF on your Mac. Replaces GIF Brewery, Permute.
 - [AppFlowy](https://easyopenhub.com/en/appflowy/): An open-source, private workspace alternative to Notion. Replaces Notion.
 - [KeePassXC](https://easyopenhub.com/en/keepassxc/): Secure offline password manager stored entirely on your computer. Replaces 1Password, LastPass.
 - [RustDesk](https://easyopenhub.com/en/rustdesk/): Access and control computers remotely without setup. Replaces TeamViewer, AnyDesk.
 - [LocalSend](https://easyopenhub.com/en/localsend/): Share files and text securely across nearby devices without internet. Replaces AirDrop, Send Anywhere.
+- [Audacity](https://easyopenhub.com/en/audacity/): Record and edit podcasts, voiceovers and music on your Mac without an Adobe subscription. Replaces Adobe Audition, Hindenburg.
+- [Buzz](https://easyopenhub.com/en/buzz/): Transcribe audio and video to text on your own Mac, offline, with no per-minute fees. Replaces MacWhisper Pro, Otter.ai, Rev.
+- [LibreOffice](https://easyopenhub.com/en/libreoffice/): A complete office suite (Word, Excel and PowerPoint equivalents) that opens Microsoft files, with no Microsoft 365 subscription. Replaces Microsoft 365, Excel, Microsoft Word.
+- [Upscayl](https://easyopenhub.com/en/upscayl/): Enlarge and enhance low-resolution images using local AI. Replaces Topaz Gigapixel AI.
+- [ONLYOFFICE Desktop Editors](https://easyopenhub.com/en/onlyoffice/): An office suite that looks like Microsoft Office and keeps .docx, .xlsx and .pptx formatting, with no subscription. Replaces Microsoft 365, Excel, Microsoft Word.
+- [GIMP](https://easyopenhub.com/en/gimp/): The best-known Photoshop alternative: layers, masks, retouching and RAW editing on your Mac, with no Adobe subscription. Replaces Adobe Photoshop.
+- [Krita](https://easyopenhub.com/en/krita/): A professional painting app for digital art and comics on your Mac, with no subscription. Replaces Adobe Photoshop, Procreate, Clip Studio Paint.
+- [Jan](https://easyopenhub.com/en/jan/): Run private AI models completely offline on your computer Replaces ChatGPT Plus, Claude Pro.
+- [Ollama](https://easyopenhub.com/en/ollama/): Run powerful AI models entirely on your own computer. Replaces ChatGPT Plus.
 - [Kap](https://easyopenhub.com/en/kap/): Record your Mac screen easily from the menu bar. Replaces Screen Studio, CleanShot X, Loom.
+- [Cap](https://easyopenhub.com/en/cap/): Record your screen and camera, polish it with zooms and backgrounds, and share a link: an open-source Loom alternative. Replaces Loom, Screen Studio.
 - [OBS Studio](https://easyopenhub.com/en/obs-studio/): Free software for video recording and live streaming. Replaces Camtasia, ScreenFlow, Loom.
 - [Shotcut](https://easyopenhub.com/en/shotcut/): A free, cross-platform desktop video editor for everyone. Replaces Final Cut Pro, Premiere Pro.
 - [IINA](https://easyopenhub.com/en/iina/): A modern media player designed specifically for macOS. Replaces Infuse, Elmedia Player.
@@ -19,7 +32,8 @@
 - [Handy](https://easyopenhub.com/en/handy/): Free, offline speech-to-text dictation into any app Replaces Wispr Flow, Superwhisper, Dragon.
 - [OpenWhispr](https://easyopenhub.com/en/openwhispr/): Voice-to-text dictation and meeting transcription for your desktop. Replaces Wispr Flow, Otter.ai.
 - [FluidVoice](https://easyopenhub.com/en/fluidvoice/): Fast on-device voice dictation app for your Mac Replaces Superwhisper, Wispr Flow.
-- [Upscayl](https://easyopenhub.com/en/upscayl/): Enlarge and enhance low-resolution images using local AI. Replaces Topaz Gigapixel AI.
+- [Inkscape](https://easyopenhub.com/en/inkscape/): A vector design app for logos, icons and print on your Mac: the classic Illustrator alternative, with no subscription. Replaces Adobe Illustrator.
+- [darktable](https://easyopenhub.com/en/darktable/): A Lightroom-style RAW photo editor and library for your Mac, with no Adobe subscription. Replaces Adobe Lightroom, Capture One.
 - [Joplin](https://easyopenhub.com/en/joplin/): Take notes and sync them securely across your devices. Replaces Evernote, Notion.
 - [Zotero](https://easyopenhub.com/en/zotero/): Collect, organize, annotate, and cite your research sources. Replaces EndNote, Mendeley.
 - [Flameshot](https://easyopenhub.com/en/flameshot/): Take screenshots and annotate them directly on your screen. Replaces CleanShot X, Snagit.
@@ -28,8 +42,6 @@
 - [Super Productivity](https://easyopenhub.com/en/super-productivity/): A private to-do list, time tracker, and daily planner. Replaces Todoist, Toggl Track, TickTick.
 - [Meetily](https://easyopenhub.com/en/meetily/): Private, on-device AI meeting recorder and note-taker. Replaces Otter.ai, Fireflies.ai.
 - [anarlog](https://easyopenhub.com/en/fastrepl-anarlog/): Privacy-focused AI meeting notepad that needs no call bots. Replaces Granola, Otter.ai.
-- [Jan](https://easyopenhub.com/en/jan/): Run private AI models completely offline on your computer Replaces ChatGPT Plus, Claude Pro.
-- [Ollama](https://easyopenhub.com/en/ollama/): Run powerful AI models entirely on your own computer. Replaces ChatGPT Plus.
 - [Diffusion Bee](https://easyopenhub.com/en/diffusionbee-stable-diffusion-ui/): Run Stable Diffusion image generation locally on your Mac Replaces Midjourney.
 - [Filee](https://easyopenhub.com/en/filee/): Drag and drop offline file converter supporting 270 formats. Replaces Permute, CloudConvert.
 - [Voicebox](https://easyopenhub.com/en/voicebox/): Local AI voice studio to clone voices and dictate text Replaces ElevenLabs, Descript.
@@ -44,7 +56,7 @@
 - [Noi](https://easyopenhub.com/en/noi/): A focused desktop workspace for AI chats and browsing. Replaces ChatGPT Plus, Poe.
 - [Khoj](https://easyopenhub.com/en/khoj/): Your personal AI second brain for search and chats. Replaces Notion AI, Mem.
 - [ComfyUI](https://easyopenhub.com/en/comfyui/): Create AI images and videos with visual connected blocks. Replaces Midjourney, Adobe Firefly.
-- [Generative AI for Krita](https://easyopenhub.com/en/krita-ai-diffusion/): Add local generative AI tools directly inside Krita Replaces Photoshop Generative Fill.
+- [Generative AI for Krita](https://easyopenhub.com/en/krita-ai-diffusion/): Add local generative AI tools directly inside Krita Replaces Adobe Photoshop.
 - [Stability Matrix](https://easyopenhub.com/en/stability-matrix/): One-click manager to install and run Stable Diffusion apps Replaces Midjourney.
 - [SurfSense](https://easyopenhub.com/en/surfsense/): Air-gapped, open-source AI agent that analyzes and edits documents. Replaces NotebookLM.
 - [Banana Slides](https://easyopenhub.com/en/banana-slides/): Turn ideas into presentation slides using generative AI models. Replaces Gamma.

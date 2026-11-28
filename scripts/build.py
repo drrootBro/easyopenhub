@@ -22,10 +22,10 @@ E = lambda s: html.escape(str(s or ""), quote=True)
 LIVE = [a for a in APPS if a["status"] != "retired"]
 PRI = sorted([a for a in APPS if a["status"] == "priority"], key=lambda a: a["rank"] or 999)
 KEEP = sorted([a for a in APPS if a["status"] == "keep"], key=lambda a: -(a.get("stars") or 0))
-NORM = {"Claude": "Claude Pro", "ChatGPT": "ChatGPT Plus", "Adobe Premiere Pro": "Premiere Pro", "ILovePDF": "iLovePDF",
+NORM = {"Photoshop Generative Fill": "Adobe Photoshop", "Claude": "Claude Pro", "ChatGPT": "ChatGPT Plus", "Adobe Premiere Pro": "Premiere Pro", "ILovePDF": "iLovePDF",
         "Dragon NaturallySpeaking": "Dragon"}
 # paid apps US Mac users search alternatives for: they get a page even with a single pick
-FOCUS = {"CleanMyMac", "Bartender", "Raycast Pro", "Screen Studio", "Permute", "Notion", "CleanShot X", "1Password",
+FOCUS = {"CapCut", "Adobe Photoshop", "Adobe Illustrator", "Adobe Lightroom", "Adobe Audition", "Microsoft 365", "Excel", "MacWhisper Pro", "CleanMyMac", "Bartender", "Raycast Pro", "Screen Studio", "Permute", "Notion", "CleanShot X", "1Password",
          "Wispr Flow", "Superwhisper", "Topaz Gigapixel AI", "Paste", "Loom", "TeamViewer", "Final Cut Pro", "Evernote",
          "Midjourney", "ElevenLabs", "Otter.ai", "Adobe Acrobat", "Snagit", "Camtasia", "Granola", "Descript", "Dropbox"}
 alts = lambda a: list(dict.fromkeys(NORM.get(x, x) for x in (a.get("alternative_to") or [])))
@@ -55,8 +55,8 @@ T = {
    trust="所有下载都直连原作者的官方发布，本站不托管、不修改、不捆绑，也不接广告联盟。", built="一个受够了在 GitHub 上找 .dmg 的独立开发者整理。"),
 }
 DLZ = {"universal": "下载 Mac 通用版（所有芯片）", "apple_silicon": "下载 Mac 版（M1–M4 芯片）", "intel": "下载 Mac 版（老款 Intel 芯片）"}
-GROUPS = ["Productivity", "Screen & Video", "Voice & Dictation", "AI", "Utilities"]
-GZ = {"Productivity": "效率", "Screen & Video": "录屏与视频", "Voice & Dictation": "语音听写", "AI": "AI", "Utilities": "实用工具"}
+GROUPS = ["Screen & Video", "Photo & Design", "Productivity", "Voice & Audio", "AI", "Utilities"]
+GZ = {"Productivity": "效率办公", "Screen & Video": "视频与录屏", "Photo & Design": "修图与设计", "Voice & Audio": "语音与音频", "AI": "AI", "Utilities": "实用工具"}
 LOGO = open(D("logo.svg")).read() if os.path.exists(D("logo.svg")) else ""
 LOGO = re.sub(r"<\?xml.*?\?>", "", LOGO)
 
