@@ -90,18 +90,18 @@
   "release_url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/tag/v0.5.1",
   "downloads": [
    {
-    "arch": "universal",
-    "label": "Download for Mac (Universal)",
-    "url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next-AI-Draw.io-0.5.1.dmg",
-    "file": "Next-AI-Draw.io-0.5.1.dmg",
-    "size_mb": 286.8
-   },
-   {
     "arch": "apple_silicon",
     "label": "Download for Apple Silicon (M1–M4)",
     "url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next-AI-Draw.io-0.5.1-arm64.dmg",
     "file": "Next-AI-Draw.io-0.5.1-arm64.dmg",
     "size_mb": 280.3
+   },
+   {
+    "arch": "intel",
+    "label": "Download for Intel Mac",
+    "url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next-AI-Draw.io-0.5.1.dmg",
+    "file": "Next-AI-Draw.io-0.5.1.dmg",
+    "size_mb": 286.8
    }
   ]
  },
@@ -172,18 +172,18 @@
   "release_url": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0",
   "downloads": [
    {
-    "arch": "universal",
-    "label": "Download for Mac (Universal)",
-    "url": "https://github.com/Mintplex-Labs/anything-llm/releases/download/v1.20.0/AnythingLLMDesktop.dmg",
-    "file": "AnythingLLMDesktop.dmg",
-    "size_mb": 525.8
-   },
-   {
     "arch": "apple_silicon",
     "label": "Download for Apple Silicon (M1–M4)",
     "url": "https://github.com/Mintplex-Labs/anything-llm/releases/download/v1.20.0/AnythingLLMDesktop-Silicon.dmg",
     "file": "AnythingLLMDesktop-Silicon.dmg",
     "size_mb": 576.5
+   },
+   {
+    "arch": "intel",
+    "label": "Download for Intel Mac",
+    "url": "https://github.com/Mintplex-Labs/anything-llm/releases/download/v1.20.0/AnythingLLMDesktop.dmg",
+    "file": "AnythingLLMDesktop.dmg",
+    "size_mb": 525.8
    }
   ]
  },
@@ -213,18 +213,18 @@
   "release_url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.12.2",
   "downloads": [
    {
-    "arch": "universal",
-    "label": "Download for Mac (Universal)",
-    "url": "https://github.com/OpenWhispr/openwhispr/releases/download/v1.12.2/OpenWhispr-1.12.2.dmg",
-    "file": "OpenWhispr-1.12.2.dmg",
-    "size_mb": 343.5
-   },
-   {
     "arch": "apple_silicon",
     "label": "Download for Apple Silicon (M1–M4)",
     "url": "https://github.com/OpenWhispr/openwhispr/releases/download/v1.12.2/OpenWhispr-1.12.2-arm64.dmg",
     "file": "OpenWhispr-1.12.2-arm64.dmg",
     "size_mb": 346.1
+   },
+   {
+    "arch": "intel",
+    "label": "Download for Intel Mac",
+    "url": "https://github.com/OpenWhispr/openwhispr/releases/download/v1.12.2/OpenWhispr-1.12.2.dmg",
+    "file": "OpenWhispr-1.12.2.dmg",
+    "size_mb": 343.5
    }
   ]
  },
@@ -513,18 +513,18 @@
   "release_url": "https://github.com/laurent22/joplin/releases/tag/v3.7.24",
   "downloads": [
    {
-    "arch": "universal",
-    "label": "Download for Mac (Universal)",
-    "url": "https://github.com/laurent22/joplin/releases/download/v3.7.24/Joplin-3.7.24.dmg",
-    "file": "Joplin-3.7.24.dmg",
-    "size_mb": 199.4
-   },
-   {
     "arch": "apple_silicon",
     "label": "Download for Apple Silicon (M1–M4)",
     "url": "https://github.com/laurent22/joplin/releases/download/v3.7.24/Joplin-3.7.24-arm64.DMG",
     "file": "Joplin-3.7.24-arm64.DMG",
     "size_mb": 202.2
+   },
+   {
+    "arch": "intel",
+    "label": "Download for Intel Mac",
+    "url": "https://github.com/laurent22/joplin/releases/download/v3.7.24/Joplin-3.7.24.dmg",
+    "file": "Joplin-3.7.24.dmg",
+    "size_mb": 199.4
    }
   ]
  },
