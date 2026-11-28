@@ -49,9 +49,14 @@ def pick_dmgs(assets):
             unlabeled.append(a)
         elif k not in out:  # first match per chip wins
             out[k] = a
-    if unlabeled and "universal" not in out:
-        # a .dmg that names no chip: universal if it is the only kind there is, otherwise the biggest one
-        out["universal"] = max(unlabeled, key=lambda a: a.get("size") or 0)
+    if unlabeled:
+        best = max(unlabeled, key=lambda a: a.get("size") or 0)
+        if "apple_silicon" in out and "intel" not in out:
+            # electron-builder and friends leave the Intel build unsuffixed next to an "-arm64" one
+            out["intel"] = best
+        elif "universal" not in out:
+            # the only .dmg (or one that names no chip): works on every Mac
+            out["universal"] = best
     return [{"arch": k, "label": LABEL[k], "url": a["browser_download_url"], "file": a["name"],
              "size_mb": round((a.get("size") or 0) / 1048576, 1)}
             for k, a in sorted(out.items(), key=lambda kv: ORDER[kv[0]])]
