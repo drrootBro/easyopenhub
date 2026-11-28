@@ -1,0 +1,56 @@
+name: Sync Mac releases and rebuild site
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # every day 00:00 UTC (7 PM New York)
+  workflow_dispatch:        # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths: ["data/**", "scripts/**", "assets/**"]   # rebuild after someone edits the app list
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: sync-releases
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest .dmg of every app (writes data/releases.json only)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/sync_releases.py
+
+      - name: Rebuild the static site
+        run: python scripts/build.py
+
+      - name: Commit and push if anything changed
+        id: commit
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes, nothing to deploy."
+            echo "changed=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync latest Mac releases and rebuild ($(date -u +%F))"
+          git push
+          echo "changed=1" >> "$GITHUB_OUTPUT"
+
+      - name: Ask GitHub Pages to redeploy
+        if: steps.commit.outputs.changed == '1'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages will pick up the push by itself."

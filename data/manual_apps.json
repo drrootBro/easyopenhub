@@ -1,0 +1,40 @@
+[
+ {
+  "id": "medear-spanish",
+  "name": "MedEar Spanish",
+  "badge": "Indie Pick",
+  "price": "$9.99 One-Time",
+  "price_note": "30-day free trial · No subscription",
+  "platforms": [
+   "iPhone",
+   "Android"
+  ],
+  "en": {
+   "pitch": "Medical English ⇄ Spanish translator, so your parents understand the doctor.",
+   "quote": "¿No habla inglés? Entienda a su médico."
+  },
+  "zh": {
+   "pitch": "看病用的英语⇄西班牙语翻译，让说西语的家人听懂医生。",
+   "quote": "¿No habla inglés? Entienda a su médico.",
+   "badge": "作者自研",
+   "price": "一次买断 $9.99",
+   "price_note": "免费试用 30 天 · 不订阅"
+  },
+  "links": [
+   {
+    "label": "App Store",
+    "url": "https://apps.apple.com/us/app/medear-spanish/id6776947808"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/apps/details?id=com.aibcinternational.medear.spanish"
+   }
+  ],
+  "show_on": [
+   "home",
+   "item"
+  ],
+  "pinned": true,
+  "home_position": "after_list"
+ }
+]
